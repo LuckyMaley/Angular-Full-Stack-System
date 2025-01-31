@@ -1,0 +1,20 @@
+<footer *ngIf="isLoggedIn && isAdminUser" class="border-top footer_admin text-muted" >
+    
+    <div class="footer_bottom">
+        <div class="container footer_bottom_container">
+            <div class="footer_copy_admin">
+                &copy; Copyright Instant Order eCommerce Website {{today | date: 'yyyy'}}. All right reserved
+            </div>
+        </div>
+    </div>
+</footer>
+
+<footer *ngIf="isLoggedIn && isSellerUser" class="border-top footer_seller text-muted" style="bottom: 0;">
+    <div class="footer_bottom">
+        <div class="container footer_bottom_container">
+            <div class="footer_copy_seller">
+                &copy; Copyright Instant Order eCommerce Website {{today | date: 'yyyy'}}. All right reserved
+            </div>
+        </div>
+    </div>
+</footer>

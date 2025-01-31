@@ -1,0 +1,170 @@
+<section class="container mt-lg-5">
+  <div class="product product--layout--standard" data-layout="standard">
+    <div class="product__content">
+      <div class="product__gallery">
+        <div class="product-gallery">
+          <div class="product-gallery__featured" style=" height: 500px;">            
+            <div class="card_top" >
+                <a href="#" class="card_img_link">
+                  <img src="{{product.imageUrl}}" style=" height: 500px;" alt="" class="card_img" />
+                </a>
+                
+              </div>
+          </div>
+        </div>
+      </div>
+      <div class="product__info">
+        <h1 class="product__name">{{ product.name }}</h1>
+        <div class="product__rating">
+          
+          <div class="card_ratings">
+            <div class="card_stars">
+                <ng-container *ngFor="let star of [1, 2, 3, 4, 5]; let i = index">
+                    <i class="fa" [ngClass]="{'fa-star': i < getAverageRating(product.productId), 'fa-star-o': i >= getAverageRating(product.productId)}"></i>
+                  </ng-container>
+            </div>
+            <p class="card_rating_numbers">{{ getReviewCount(product.productId) }} Reviews</p>
+          </div>
+        </div>
+        <div class="product__description">
+          {{product.description}}
+        </div>
+        <ul class="product__meta">
+          <li *ngIf="count > 0" class="product__meta-availability">
+            Availability: <span class="text-success">In Stock</span>
+          </li>
+          <li>Brand: <a href="#">{{ product.brand }} - {{ product.type }}</a></li>
+        </ul>
+      </div>
+      <div class="product__sidebar">
+        <div *ngIf="count > 0" class="product__availability">
+          Availability: <span class="text-success">In Stock</span>
+        </div>
+        <div *ngIf="count == 0" class="product__availability">
+            Availability: <span class="text-danger">Out of Stock</span>
+          </div>
+        <div class="product__prices">R{{ product.price | number:'1.2-2' }}</div>
+        <div class="product__options">
+          <div class="form-group product__option">
+            <label class="product__option-label" for="product-quantity"
+              >Quantity</label
+            >
+            <div class="product__actions">
+              <div class="product__actions-item">
+                <div class="input-number product__quantity">
+                  <input #inputQty
+                    id="product-quantity"
+                    class="input-number__input form_input num-input"
+                    type="number"
+                    min="1"
+                    value="1"
+                  />
+                  <div class="input-number__add"></div>
+                  <div class="input-number__sub"></div>
+                </div>
+              </div>
+              <div
+                class="product__actions-item product__actions-item--addtocart"
+              >
+                <button class="form_btn cart-addBtn" (click)="addToCart(product, +inputQty.value)">Add to cart</button>
+              </div>
+              <div
+                class="product__actions-item product__actions-item--wishlist"
+              >
+                <button
+                  type="button"
+                  class="form_btn wishlist wish-addBtn" (click)="addWishlistItem(product.productId)"
+                >
+                  <svg width="16px" height="16px" >
+                    <use
+                      xlink:href="assets/images/sprite.svg#wishlist-16"
+                    ></use>
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <br/>
+  <br/>
+    <div class="reviews-view__list">
+        <h3 class="reviews-view__header">Customer Reviews</h3>
+        <div class="reviews-view">
+          <div *ngIf="isLoggedIn" class="reviews-view__form">
+            <h3 class="reviews-view__header">Write A Review</h3>
+            <div class="row">
+              <div class="col-12 col-lg-9 col-xl-8" *ngIf="!hasReviewed; else reviewMessage">
+                <form (ngSubmit)="onSubmit()">
+                  <div class="form-row">
+                    <div class="form-group col-md-4">
+                      <label for="review-stars">Review Stars</label>
+                      <select id="review-stars" class="form-control" (change)="updateRating($event)" name="stars">
+                        <option value="5">5 Stars Rating</option>
+                        <option value="4">4 Stars Rating</option>
+                        <option value="3">3 Stars Rating</option>
+                        <option value="2">2 Stars Rating</option>
+                        <option value="1">1 Stars Rating</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <div id="Error" style="color:red;" *ngIf="errorMessage">
+                      <p>{{ errorMessage }}</p>
+                  </div>
+                    <label for="review-text">Your Review</label>
+                    <input class="form-control" id="review-title" rows="6" [(ngModel)]="review.title" name="text" type="text" placeholder="Title">
+                      <br/>
+                    <textarea class="form-control" id="review-comment" rows="6" [(ngModel)]="review.comment" name="text" placeholder="Comment here"></textarea>
+                  </div>
+                  <br />
+                  <div class="form-group mb-0">
+                    <button type="submit" class="btn btn-primary btn-lg">Post Your Review</button>
+                  </div>
+                </form>
+              </div>
+              <ng-template #reviewMessage>
+                <div class="alert alert-info">
+                  <strong>Thank you!</strong> You have already submitted a review for this product.
+                </div>
+              </ng-template>
+            </div>
+          </div>
+        <div *ngIf="!isLoggedIn" class="reviews-view__form">
+          <p>Please <a routerLink="/login" routerLinkActive="active">login</a> to write a review</p>
+        </div>
+        <br/>
+        <div class="reviews-list">
+            <ol class="reviews-list__content">
+                <li class="reviews-list__item" *ngFor="let item of cusReviews">
+                    <div class="review" >
+                        <div class="review__avatar">
+                            <img src="assets/images/person.png" alt="" /></div>
+                        <div class="review__content">
+                            <div class="review__author">{{item.firstName}} {{item.lastName}}</div>
+                            <br/>
+                            <div class="review__author">{{item.title}}</div>
+                            <div class="review__rating">
+                                <div class="rating">
+                                  <div class="card_ratings">
+                                    <div class="card_stars">
+                                      <ng-container *ngFor="let star of [1, 2, 3, 4, 5]; let i = index">
+                                        <i class="fa" [ngClass]="{'fa-star': i < item.rating, 'fa-star-o': i >= item.rating}"></i>
+                                      </ng-container>
+                                    </div>
+                                  </div>
+                                </div>
+                            </div>
+                            <div class="review__text">{{item.comment}}</div>
+                            <div class="review__date">{{item.reviewDate | date: 'dd MMMM yyy'}}</div>
+                        </div>
+                    </div>
+                </li>
+            </ol>
+        </div>
+    </div>
+    
+</div>
+</section>

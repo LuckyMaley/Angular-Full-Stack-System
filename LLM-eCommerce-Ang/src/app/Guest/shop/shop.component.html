@@ -1,0 +1,33 @@
+<section class="container mt-5">
+    <div class="products">
+        <div *ngFor="let product of products" class="card">
+          <div class="card_top">
+            <a routerLink="/product/{{ product.productId }}" class="card_img_link">
+              <img src="{{product.imageUrl}}" alt="" class="card_img" />
+            </a>
+            <div class="card_top_icons">
+              <button class="wishlist-link wish-addBtn" (click)="addWishlistItem(product.productId)" style="border: none; background-color: transparent;"  tabindex="1">
+                <i class="fa fa-heart wishlist-icon card_top_icon"></i>
+              </button>
+            </div>
+          </div>
+          <div class="card_body">
+            <a routerLink="/product/{{ product.productId }}" class="card_link">
+              <h3 class="card_title">{{ product.name }} - {{ product.type }}</h3>
+              <p class="card_price">R{{ product.price | number:'1.2-2' }}</p>
+            </a>
+            <div class="card_ratings">
+              <div class="card_stars">
+                <ng-container *ngFor="let star of [1, 2, 3, 4, 5]; let i = index">
+                  <i class="fa" [ngClass]="{'fa-star': i < getAverageRating(product.productId), 'fa-star-o': i >= getAverageRating(product.productId)}"></i>
+                </ng-container>
+              </div>
+              <p class="card_rating_numbers">({{ getReviewCount(product.productId) }})</p>
+            </div>
+            <a class="add_to_cart cart-addBtn" (click)="addToCart(product, +1)">
+              Add to Cart
+            </a>
+          </div>
+        </div>
+      </div>
+</section>

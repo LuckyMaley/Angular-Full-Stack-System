@@ -1,0 +1,117 @@
+<section class="container mt-lg-5">
+  <div class="container">
+    <div class="row">
+        <div class="user_nav account_nav_div">
+            <div class="account-nav">
+                <h4 class="account-nav__title">Navigation</h4>
+                <ul>
+                    <li class="account-nav__item">
+                        <a routerLink="/customer" routerLinkActive="active">Dashboard</a>
+                    </li>
+                    <li class="account-nav__item">
+                        <a routerLink="/customer/products" routerLinkActive="active">Products</a>
+                    </li>
+                    <li class="account-nav__item">
+                        <a routerLink="/customer/orders" routerLinkActive="active">Orders</a>
+                    </li>
+                    <li class="account-nav__item account-nav__item--active">
+                        <a routerLink="/customer/reviews" routerLinkActive="active">Reviews</a>
+                    </li>
+                    <li class="account-nav__item">
+                        <a routerLink="/customer/wishlists" routerLinkActive="active">Wishlists</a>
+                    </li>
+                    <li class="account-nav__item">
+                        <a routerLink="/customer/profile" routerLinkActive="active">Profile</a>
+                    </li>
+                    <li class="account-nav__item">
+                        <a class="logout-link" (click)="Logout()">Logout</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+      <div class="user_content">
+        
+        <div class="row">
+          <div class="">
+            <div id="Error" style="color: red" *ngIf="errorMessage">
+              <p>{{ errorMessage }}</p>
+            </div>
+            <div class="">
+              <h3 class="reviews-view__header">Write A Review</h3>
+              <div class="row">
+                <div class="col-12 col-lg-9 col-xl-8">
+                  <div class="form-row">
+                    <div class="form_group col-md-4">
+                      <label for="product-select">Select Product</label>
+                      <select
+                        id="product-select"
+                        class="form_input"
+                        (change)="updateSelectedProduct($event)"
+                      >
+                        <option
+                          *ngFor="let product of products"
+                          [value]="product.productId"
+                        >
+                          {{ product.name }}
+                        </option>
+                      </select>
+                    </div>
+                  </div>
+                  <div *ngIf="selectedProduct">
+                    <img
+                      [src]="selectedProduct.imageUrl"
+                      alt="Product Image"
+                      class="img-fluid" style="max-width: 200px; max-height: 200px;"
+                    />
+                  </div>
+                  <div class="form-row">
+                    <div class="form_group col-md-4">
+                      <label for="review-stars">Review Stars</label>
+                      <select
+                        id="review-stars"
+                        class="form_input"
+                        (change)="updateRating($event)"
+                      >
+                        <option value="5">5 Stars Rating</option>
+                        <option value="4">4 Stars Rating</option>
+                        <option value="3">3 Stars Rating</option>
+                        <option value="2">2 Stars Rating</option>
+                        <option value="1">1 Stars Rating</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="form_group">
+                    <label for="review-text">Your Review</label>
+                    <input type="text" class="form_input" [(ngModel)]="review.title" placeholder="title" required/>
+                    <textarea
+                      class="form_input"
+                      id="review-text"
+                      [(ngModel)]="review.comment"
+                      rows="6" required placeholder="Comment here"
+                    ></textarea>
+                  </div>
+                  <br />
+                  <div class="form_group">
+                    <button
+                      type="submit"
+                      class="form_btn"
+                      (click)="submitReview()"
+                    >
+                      Post Your Review
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <a routerLink="/customer/reviews" routerLinkActive="active"
+            >Back to List</a
+          >
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

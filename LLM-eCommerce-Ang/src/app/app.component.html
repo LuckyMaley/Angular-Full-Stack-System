@@ -1,0 +1,4 @@
+<app-main-navigation ></app-main-navigation>
+<router-outlet></router-outlet>
+<app-default-footer *ngIf="!isLoggedIn || isCustomerUser"></app-default-footer>
+<app-specific-user-footer *ngIf="isLoggedIn && !isCustomerUser"></app-specific-user-footer>

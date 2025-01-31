@@ -1,0 +1,32 @@
+<div class="center-details">
+    <div class="vertical-center">
+  
+      <div *ngIf="userProfileData as usrData">
+  
+        <h1>Hello {{ usrData.firstName}}, review your profile:</h1>
+        <div>
+          <hr />
+          <dl class="row">
+            <dt class="col col--3">FirstName</dt>
+            <dd class="col col--7">{{usrData.firstName}}</dd>
+  
+            <dt class="col col--3">LastName</dt>
+            <dd class="col col--7">{{usrData.lastName}}</dd>
+  
+            <dt class="col col--3">Email</dt>
+            <dd class="col col--7">{{usrData.email}}</dd>
+  
+            <dt class="col col--3">UserName</dt>
+            <dd class="col col--7">{{usrData.userName}}</dd>
+          </dl>
+  
+          <hr />
+  
+        </div>
+      </div>
+      <div>
+        <a routerLink="/home" routerLinkActive="active">Back to Home Page</a>
+      </div>
+    </div>
+  </div>
+  

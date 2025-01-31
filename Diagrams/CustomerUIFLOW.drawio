@@ -1,0 +1,106 @@
+<mxfile host="app.diagrams.net" modified="2024-05-30T08:24:30.279Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="svJx6pOazts9LOmG9HSD" version="24.4.9" type="device">
+  <diagram name="Page-1" id="8wiykd4tGO6RGBSKFr3c">
+    <mxGraphModel dx="1859" dy="446" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="RL8L4CuA6JKIbhsVq-48-1" value="customer sees the landing page" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="130" width="160" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="RL8L4CuA6JKIbhsVq-48-2" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="RL8L4CuA6JKIbhsVq-48-4" target="RL8L4CuA6JKIbhsVq-48-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="350" y="210" as="sourcePoint" />
+            <mxPoint x="400" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RL8L4CuA6JKIbhsVq-48-4" value="As customer, I want to add items to my cart so that I can make a purchase" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-210" y="130" width="160" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="RL8L4CuA6JKIbhsVq-48-6" value="customer navigates to products page&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span lang=&quot;EN-US&quot;&gt;api call:&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span lang=&quot;EN-US&quot;&gt;https://localhost:7253/api/Products&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="130" width="211" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="RL8L4CuA6JKIbhsVq-48-7" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="RL8L4CuA6JKIbhsVq-48-6" source="RL8L4CuA6JKIbhsVq-48-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="259" y="195" as="sourcePoint" />
+            <mxPoint x="709" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RL8L4CuA6JKIbhsVq-48-8" value="customer views a product&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;api call:&lt;/div&gt;&lt;div&gt;&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span lang=&quot;EN-US&quot;&gt;https://localhost:7253/api/Products/{id}&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-210" y="360" width="210" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="RL8L4CuA6JKIbhsVq-48-9" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" target="RL8L4CuA6JKIbhsVq-48-8" source="RL8L4CuA6JKIbhsVq-48-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="569" y="195" as="sourcePoint" />
+            <mxPoint x="1018" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RL8L4CuA6JKIbhsVq-48-10" value="customer adds product to cart" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="360" width="160" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="RL8L4CuA6JKIbhsVq-48-11" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" target="RL8L4CuA6JKIbhsVq-48-10" source="RL8L4CuA6JKIbhsVq-48-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-50" y="425" as="sourcePoint" />
+            <mxPoint x="399" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RL8L4CuA6JKIbhsVq-48-12" value="customer goes to view cart items" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="409.5" y="360" width="160" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="RL8L4CuA6JKIbhsVq-48-13" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="RL8L4CuA6JKIbhsVq-48-12" source="RL8L4CuA6JKIbhsVq-48-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="260.5" y="425" as="sourcePoint" />
+            <mxPoint x="709.5" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RL8L4CuA6JKIbhsVq-48-14" value="customer logins or register before checkout&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;api call:&lt;/div&gt;&lt;div&gt;&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span lang=&quot;EN-US&quot;&gt;https://localhost:7253/api/ApplicationUser/Login&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span lang=&quot;EN-US&quot;&gt;or&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span lang=&quot;EN-US&quot;&gt;&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span lang=&quot;EN-US&quot;&gt;https://localhost:7253/api/ApplicationUser/Register&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-210" y="590" width="280" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="RL8L4CuA6JKIbhsVq-48-15" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="RL8L4CuA6JKIbhsVq-48-12" target="RL8L4CuA6JKIbhsVq-48-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="569.5" y="425" as="sourcePoint" />
+            <mxPoint x="1018.5" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RL8L4CuA6JKIbhsVq-48-20" value="customer adds shipping address and payment details for checking out&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;api call:&lt;/div&gt;&lt;div&gt;&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span lang=&quot;EN-US&quot;&gt;https://localhost:7253/api/Shippings&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span lang=&quot;EN-US&quot;&gt;&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span lang=&quot;EN-US&quot;&gt;https://localhost:7253/api/Payments&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="590" width="222" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="RL8L4CuA6JKIbhsVq-48-21" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="RL8L4CuA6JKIbhsVq-48-20" source="RL8L4CuA6JKIbhsVq-48-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-49.5" y="658.2417582417581" as="sourcePoint" />
+            <mxPoint x="398" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RL8L4CuA6JKIbhsVq-48-22" value="customer receives tracking number&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;api call:&lt;/div&gt;&lt;div&gt;&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span lang=&quot;EN-US&quot;&gt;https://localhost:7253/api/Shippings{id}&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="408.5" y="590" width="231.5" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="RL8L4CuA6JKIbhsVq-48-23" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="RL8L4CuA6JKIbhsVq-48-20" target="RL8L4CuA6JKIbhsVq-48-22">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="259.5" y="655" as="sourcePoint" />
+            <mxPoint x="708.5" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RL8L4CuA6JKIbhsVq-48-24" value="customer goes to account page" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-210" y="820" width="189.5" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="RL8L4CuA6JKIbhsVq-48-25" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="RL8L4CuA6JKIbhsVq-48-22" target="RL8L4CuA6JKIbhsVq-48-24">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="568.5" y="655" as="sourcePoint" />
+            <mxPoint x="1017.5" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RL8L4CuA6JKIbhsVq-48-26" value="customer views order details&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;api call:&lt;/div&gt;&lt;div&gt;&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span lang=&quot;EN-US&quot;&gt;https://localhost:7253/api/Orders/{id}&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="98" y="820" width="222" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="RL8L4CuA6JKIbhsVq-48-27" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="RL8L4CuA6JKIbhsVq-48-26" source="RL8L4CuA6JKIbhsVq-48-24">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-49" y="885" as="sourcePoint" />
+            <mxPoint x="398" y="880" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RL8L4CuA6JKIbhsVq-48-28" value="Customer Ordering UI FLOW" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="30" y="50" width="330" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

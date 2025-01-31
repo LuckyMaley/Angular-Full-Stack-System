@@ -1,0 +1,48 @@
+<footer class="border-top footer text-muted" *ngIf="!isLoggedIn || isCustomerUser && (!isSellerUser && !isAdminUser)">
+    <div class="container footer_container">
+        <div class="footer_item">
+            <a class="footer_logo">Instant Order</a>
+            <div class="footer_p">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Exercitationem fuga harum voluptate?
+            </div>
+        </div>
+        <div class="footer_item">
+            <h3 class="footer_item_titl">Contact Us</h3>
+            <ul class="footer_list">
+                <li class="li footer_list_item">Stockholm, Sweden</li>
+                <li class="li footer_list_item">email@gmail.com</li>
+                <li class="li footer_list_item">+46 123 456 78</li>
+                <li class="li footer_list_item">+46 72 345 67</li>
+            </ul>
+        </div>
+        <div class="footer_item">
+            <h3 class="footer_item_titl">Services</h3>
+            <ul class="footer_list">
+                <li *ngIf="isLoggedIn && isAdminUser" class="li footer_list_item"><a routerLink="/admin" routerLinkActive="active" class="nav_link">Account</a></li>
+                <li *ngIf="isLoggedIn && isSellerUser" class="li footer_list_item"><a routerLink="/seller" routerLinkActive="active" class="nav_link">Account</a></li>
+                <li *ngIf="isLoggedIn && isCustomerUser" class="li footer_list_item"><a routerLink="/customer" routerLinkActive="active" class="nav_link">Account</a></li>
+                <li *ngIf="!isLoggedIn || !isCustomerUser && (!isSellerUser && !isAdminUser)" class="li footer_list_item"><a routerLink="/login" routerLinkActive="active">Login / Register</a></li>
+                <li class="li footer_list_item"><a routerLink="/cart" routerLinkActive="active">Cart</a></li>
+                <li class="li footer_list_item"><a routerLink="/shop" routerLinkActive="active">Shop</a></li>
+            </ul>
+        </div>
+        <div class="footer_item">
+            <h3 class="footer_item_titl">Support</h3>
+            <ul class="footer_list">
+                <li class="li footer_list_item"><a routerLink="/privacy" routerLinkActive="active">Privacy policy</a></li>
+                <li class="li footer_list_item"><a routerLink="/faq" routerLinkActive="active">FAQ's</a></li>
+                <li class="li footer_list_item"><a routerLink="/contact" routerLinkActive="active">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="footer_bottom">
+        <div class="container footer_bottom_container">
+            <div class="footer_copy">
+                &copy; Copyright Instant Order eCommerce Website {{today | date:'yyyy'}}. All right reserved
+            </div>
+        </div>
+    </div>
+</footer>
+
+

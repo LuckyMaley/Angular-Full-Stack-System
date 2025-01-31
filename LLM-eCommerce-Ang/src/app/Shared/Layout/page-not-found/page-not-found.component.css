@@ -1,0 +1,51 @@
+.not-found {
+    text-align: center;
+}
+
+.not-found__404 {
+    font-size: 80px;
+    font-weight: 700;
+    color: #ebebeb;
+    padding: 40px 0 20px;
+}
+
+.not-found__content {
+    width: 480px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.not-found__title {
+    margin-bottom: 30px;
+}
+
+.not-found__text {
+    margin-bottom: 20px;
+}
+
+.not-found__search {
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.not-found__search-input {
+    width: 1px;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    margin-right: 10px;
+}
+
+@media (max-width:991px) {
+    .not-found__404 {
+        font-size: 60px;
+    }
+}
+
+@media (max-width:767px) {
+    .not-found__404 {
+        font-size: 50px;
+        line-height: 54px;
+        padding: 40px 0 32px;
+    }
+}

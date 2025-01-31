@@ -1,0 +1,310 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>LLM_eCommerce_RESTAPI</name>
+    </assembly>
+    <members>
+        <member name="T:LLM_eCommerce_RESTAPI.Controllers.CategoriesController">
+            <summary>
+            A summary about CategoriesController class.
+            </summary>
+            <remarks>
+            CategoriesController has the following end points:
+            Get all Categories
+            Get Categories with id
+            Get Categories with Name
+            Put (update) Category with id and Category object
+            Post (Add) Category using a Categories View Model 
+            Delete Category with id
+            </remarks>
+        </member>
+        <member name="T:LLM_eCommerce_RESTAPI.Controllers.CategoriesProductsController">
+            <summary>
+            A summary about CategoriesProductsController class.
+            </summary>
+            <remarks>
+            CategoriesController has the following end points:
+            Get all Categories
+            Get a Categorie with id
+            Get All Categories with Product information
+            Given an Id will get a single Category with Product information
+            Using CategoriesProductsRepo
+            </remarks>
+        </member>
+        <member name="T:LLM_eCommerce_RESTAPI.Controllers.CustomersOrdersController">
+            <summary>
+            A summary about CustomersOrdersController class.
+            </summary>
+            <remarks>
+            CustomersOrdersController requires a user to be logged in and have specific role to access the end points
+            CustomersOrdersController has the following end points:
+            Get current logged in user's order details - required role is Customer
+            Get All CustomersOrders information  - required role is Administrator
+            Get a CustomersOrders with User id - Authenticated user (Administrator, Seller)
+            Get OrderDetails with Order id - Authenticated user (Administrator, Seller, Customer)
+            Get OrderDetails with Shipping id - Authenticated user (Administrator, Seller, Customer)
+            Using CustomersOrdersRepo
+            </remarks>
+        </member>
+        <member name="T:LLM_eCommerce_RESTAPI.Controllers.CustomersOrderDetailsController">
+            <summary>
+            A summary about CustomersOrderDetailsController class.
+            </summary>
+            <remarks>
+            CustomersOrderDetailsController requires a user to be logged in and have specific role to access the end points
+            CustomersOrderDetailsController has the following end points:
+            Get current logged in user's order details - required role is Customer
+            Get All CustomersOrderDetails information  - required role is Administrator
+            Get a CustomersOrderDetails with User id - Authenticated user (Administrator, Seller)
+            Get OrderDetails with Order id - Authenticated user (Administrator, Seller, Customer)
+            Get OrderDetails with Shipping id - Authenticated user (Administrator, Seller, Customer)
+            Using CustomersOrderDetailsRepo
+            </remarks>
+        </member>
+        <member name="T:LLM_eCommerce_RESTAPI.Controllers.CustomersOrdersPaymentsController">
+            <summary>
+            A summary about CustomersOrdersPaymentsController class.
+            </summary>
+            <remarks>
+            CustomersOrdersPaymentsController requires a user to be logged in and have specific role to access the end points
+            CustomersOrdersPaymentsController has the following end points:
+            Get current logged in user's order payments - required role is Customer
+            Get All CustomersOrdersPayments information  - required role is Administrator
+            Get a CustomersOrdersPayments with User id - Authenticated user (Administrator, Seller)
+            Get OrdersPaymentDetails with OrdersPayment id - Authenticated user (Administrator, Seller, Customer)
+            Get OrdersPaymentDetails with Order id - Authenticated user (Administrator, Seller, Customer)
+            Using CustomersOrdersPaymentsRepo
+            </remarks>
+        </member>
+        <member name="T:LLM_eCommerce_RESTAPI.Controllers.CustomersReviewsController">
+            <summary>
+            A summary about CustomersReviewsController class.
+            </summary>
+            <remarks>
+            CustomersReviewsController requires a user to be logged in and have specific role to access the end points
+            CustomersReviewsController has the following end points:
+            Get current logged in user's reviews - required role is Customer
+            Get All CustomersReviews information  - required role is Administrator
+            Get a CustomersReviews with User id - Authenticated user (Administrator, Seller)
+            Get ReviewDetails with Review id - Authenticated user (Administrator, Seller, Customer)
+            Get ReviewDetails with Product id - Authenticated user (Administrator, Seller, Customer)
+            Using CustomersReviewsRepo
+            </remarks>
+        </member>
+        <member name="T:LLM_eCommerce_RESTAPI.Controllers.CustomersWishlistsController">
+            <summary>
+            A summary about CustomersWishlistsController class.
+            </summary>
+            <remarks>
+            CustomersWishlistsController requires a user to be logged in and have specific role to access the end points
+            CustomersWishlistsController has the following end points:
+            Get current logged in user's wishlists - required role is Customer
+            Get All CustomersWishlists information  - required role is Administrator
+            Get a CustomersWishlists with User id - Authenticated user (Administrator, Seller)
+            Get WishlistDetails with Wishlist id - Authenticated user (Administrator, Seller, Customer)
+            Get WishlistDetails with product id - Authenticated user (Administrator, Seller, Customer)
+            Using CustomersWishlistsRepo
+            </remarks>
+        </member>
+        <member name="T:LLM_eCommerce_RESTAPI.Controllers.OrderDetailsController">
+            <summary>
+            A summary about OrderDetailsController class.
+            </summary>
+            <remarks>
+            OrderDetailsController has the following end points:
+            Get all OrderDetails
+            Get OrderDetails with id
+            Put (update) OrderDetail with id and OrderDetail object
+            Post (Add) OrderDetail using a OrderDetails View Model 
+            Delete OrderDetail with id
+            </remarks>
+        </member>
+        <member name="T:LLM_eCommerce_RESTAPI.Controllers.OrdersController">
+            <summary>
+            A summary about OrdersController class.
+            </summary>
+            <remarks>
+            OrdersController has the following end points:
+            Get all Orders
+            Get Orders with id
+            Get Orders with date
+            Get Orders between dates
+            Put (update) Order with id and Order object
+            Post (Add) Order using a Orders View Model 
+            Delete Order with id
+            </remarks>
+        </member>
+        <member name="T:LLM_eCommerce_RESTAPI.Controllers.PaymentsController">
+            <summary>
+            A summary about PaymentsController class.
+            </summary>
+            <remarks>
+            PaymentsController has the following end points:
+            Get all Payments
+            Get Payments with id
+            Get Payments with method
+            Get Payments with date
+            Get Payments between dates
+            Put (update) Payment with id and Payment object
+            Post (Add) Payment using a Payments View Model 
+            Delete Payment with id
+            </remarks>
+        </member>
+        <member name="T:LLM_eCommerce_RESTAPI.Controllers.ProductsController">
+            <summary>
+            A summary about ProductsController class.
+            </summary>
+            <remarks>
+            ProductsController has the following end points:
+            Get all Products
+            Get Products with id
+            Get Products with Name
+            Put (update) Product with id and Product object
+            Post (Add) Product using a Products View Model 
+            Delete Product with id
+            </remarks>
+        </member>
+        <member name="T:LLM_eCommerce_RESTAPI.Controllers.ReviewsController">
+            <summary>
+            A summary about ReviewsController class.
+            </summary>
+            <remarks>
+            ReviewsController has the following end points:
+            Get all Reviews
+            Get Reviews with id
+            Get Reviews with rating
+            Get Reviews with title
+            Get Reviews with date
+            Get Reviews between dates
+            Put (update) Review with id and Review object
+            Post (Add) Review using a Reviews View Model 
+            Delete Review with id
+            </remarks>
+        </member>
+        <member name="T:LLM_eCommerce_RESTAPI.Controllers.ShippingsController">
+            <summary>
+            A summary about ShippingsController class.
+            </summary>
+            <remarks>
+            ShippingsController has the following end points:
+            Get all Shippings
+            Get Shippings with id
+            Get Shippings with method
+            Get Shippings with Address
+            Get Shippings with Delivery Status
+            Get Shippings with Tracking Number
+            Get Shippings with date
+            Get Shippings between dates
+            Put (update) Shipping with id and Shipping object
+            Post (Add) Shipping using a Shippings View Model 
+            Delete Shipping with id
+            </remarks>
+        </member>
+        <member name="T:LLM_eCommerce_RESTAPI.Controllers.UsersProductsController">
+            <summary>
+            A summary about UsersProductsController class.
+            </summary>
+            <remarks>
+            UsersProductsController requires a user to be logged in and have specific role to access the end points
+            UsersProductsController has the following end points:
+            Get current logged in user's products - required role is Administrator or Seller
+            Get All UsersProducts information  - required role is Administrator
+            Get a UsersProducts with User id - Authenticated user (Administrator)
+            Get a ProductDetails with Product id - Authenticated user (Administrator)
+            Get a ProductDetails with User Product id - Authenticated user (Administrator)
+            Using UsersProductsRepo
+            </remarks>
+        </member>
+        <member name="T:LLM_eCommerce_RESTAPI.Controllers.WishlistsController">
+            <summary>
+            A summary about WishlistsController class.
+            </summary>
+            <remarks>
+            WishlistsController has the following end points:
+            Get all Wishlists
+            Get Wishlists with id
+            Get Wishlists between dates
+            Put (update) Wishlist with id and Wishlist object
+            Post (Add) Wishlist using a Wishlists View Model 
+            Delete Wishlist with id
+            </remarks>
+        </member>
+        <member name="T:LLM_eCommerce_RESTAPI.Repository.CategoriesProductsRepo">
+            <summary>
+            A summary about CategoriesProductsRepo class.
+            </summary>
+            <remarks>
+            CategoriesProductsRepo has the following methods to get information from DB using EF:
+            Get all CategoriesProducts
+            Get CategoriesProducts with id
+            Get All Categories with product information
+            </remarks>
+        </member>
+        <member name="T:LLM_eCommerce_RESTAPI.Repository.CustomersOrderDetailsRepo">
+            <summary>
+            A summary about CustomersOrderDetailsRepo class.
+            </summary>
+            <remarks>
+            CustomersOrderDetailsRepo has the following methods:
+            Get current logged in user's products
+            Get orderDetails with order details id
+            Get orderDetails with order id
+            </remarks>
+        </member>
+        <member name="T:LLM_eCommerce_RESTAPI.Repository.CustomersOrdersPaymentsRepo">
+            <summary>
+            A summary about OrdersPaymentsRepo class.
+            </summary>
+            <remarks>
+            OrdersPaymentsRepo has the following methods:
+            Get current logged in user's order payments
+            Get orders with payment id
+            Get orders with order id
+            </remarks>
+        </member>
+        <member name="T:LLM_eCommerce_RESTAPI.Repository.CustomersOrdersRepo">
+            <summary>
+            A summary about CustomersOrdersRepo class.
+            </summary>
+            <remarks>
+            CustomersOrdersRepo has the following methods:
+            Get current logged in user's orders
+            Get orders with order id
+            Get orders with shipping id
+            </remarks>
+        </member>
+        <member name="T:LLM_eCommerce_RESTAPI.Repository.CustomersReviewsRepo">
+            <summary>
+            A summary about CustomersReviewsRepo class.
+            </summary>
+            <remarks>
+            CustomersReviewsRepo has the following methods:
+            Get current logged in user's reviews
+            Get reviews with review id
+            Get reviews with product id
+            </remarks>
+        </member>
+        <member name="T:LLM_eCommerce_RESTAPI.Repository.CustomersWishlistsRepo">
+            <summary>
+            A summary about CustomersWishlistssRepo class.
+            </summary>
+            <remarks>
+            CustomersWishlistsRepo has the following methods:
+            Get current logged in user's wishlists
+            Get wishlists with wishlist id
+            Get wishlists with product id
+            </remarks>
+        </member>
+        <member name="T:LLM_eCommerce_RESTAPI.Repository.UsersProductsRepo">
+            <summary>
+            A summary about UsersProductsRepo class.
+            </summary>
+            <remarks>
+            UsersProductsRepo has the following methods:
+            Get current logged in user's products
+            Get a ProductDetails with Product id
+            Get a ProductDetails with User Product id
+            </remarks>
+        </member>
+    </members>
+</doc>

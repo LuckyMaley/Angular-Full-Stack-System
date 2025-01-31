@@ -1,0 +1,137 @@
+<section class="container mt-lg-5">
+
+    <div class="container">
+        <div class="row">
+            <div class="user_nav account_nav_div">
+                <div class="account-nav">
+                    <h4 class="account-nav__title">Navigation</h4>
+                    <ul>
+                        <li class="account-nav__item">
+                            <a routerLink="/admin" routerLinkActive="active">Dashboard</a>
+                        </li>
+                        <li class="account-nav__item">
+                            <a routerLink="/admin/categories" routerLinkActive="active">Categories</a>
+                        </li>
+                        <li class="account-nav__item">
+                            <a routerLink="/admin/products" routerLinkActive="active">Products</a>
+                        </li>
+                        <li class="account-nav__item account-nav__item--active">
+                            <a routerLink="/admin/orders" routerLinkActive="active">Orders</a>
+                        </li>
+                        <li class="account-nav__item">
+                            <a routerLink="/admin/shipping" routerLinkActive="active">Shippings</a>
+                        </li>
+                        <li class="account-nav__item">
+                            <a routerLink="/admin/reviews" routerLinkActive="active">Reviews</a>
+                        </li>
+                        <li class="account-nav__item">
+                            <a routerLink="/admin/wishlists" routerLinkActive="active">Wishlists</a>
+                        </li>
+                        <li class="account-nav__item">
+                            <a routerLink="/admin/payments" routerLinkActive="active">Payments</a>
+                        </li>
+                        <li class="account-nav__item">
+                            <a routerLink="/admin/users" routerLinkActive="active">Users</a>
+                        </li>
+                        <li class="account-nav__item">
+                            <a routerLink="/admin/profile" routerLinkActive="active">Profile</a>
+                        </li>
+                        <li class="account-nav__item">
+                            <a (click)="Logout()">Logout</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="user_content">
+                <div class="dashboard">
+                    <div class="dashboard__orders card-profile">
+                        <div class="card-header">
+                            <div class="order-header__actions">
+                                <a routerLink="/admin/orders" routerLinkActive="active"
+                                   class="btn btn-lg btn-secondary">Back to list</a>
+                            </div>
+                            <h5 class="order-header__title">Order #{{adminOrderHistoryVM.usersProductsOrdersVMList.orderId}}</h5>
+                            <div class="order-header__subtitle">
+                                Was placed on
+                                <mark class="order-header__date">{{adminOrderHistoryVM.usersProductsOrdersVMList.orderDate | date:"dd, MMMM, yyyy"}}</mark> and
+                                is currently
+                                <mark class="order-header__status">{{adminOrderHistoryVM.usersProductsOrdersVMList.deliveryStatus}}</mark>.
+                            </div>
+                        </div>
+                        <div class="card-divider"></div>
+                        <div class="card-table">
+                            <div class="table-responsive-sm">
+                                <table>
+                                    <thead>
+                                        <tr>
+                                            <th>Product</th>
+                                            <th>Total</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody class="card-table__body card-table__body--merge-rows">
+                                            <tr *ngFor="let item of adminOrderHistoryVM.customersOrderDetailsVMList">
+                                                <td>
+                                                    {{item.name}} ×{{item.quantity}}
+                                                </td>
+                                                <td>R{{item.totalAmount | number: '1.2-2'}}</td>
+                                            </tr>
+                                    </tbody>
+                                    <tbody class="card-table__body card-table__body--merge-rows">
+                                        <tr>
+                                            <th>Subtotal</th>
+                                            <td>R{{adminOrderHistoryVM.usersProductsOrdersVMList.totalAmount | number: '1.2-2'}}</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Shipping</th>
+                                            <td>R0</td>
+                                        </tr>
+                                    </tbody>
+                                    <tfoot>
+                                        <tr>
+                                            <th>Total</th>
+                                            <td>R{{adminOrderHistoryVM.usersProductsOrdersVMList.totalAmount | number: '1.2-2'}}</td>
+                                        </tr>
+                                    </tfoot>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row dash mt-lg-5">
+                    <div class="dashboard__profile card-profile profile-card">
+                        <div class="card-body profile-card__body">
+                            <div class="profile-card__avatar">
+                                <img src="assets/images/person.png" alt="" />
+                            </div>
+                            <div class="profile-card__name">Name: {{adminOrderHistoryVM.usersProductsOrdersVMList.firstName}} {{adminOrderHistoryVM.usersProductsOrdersVMList.lastName}}</div>
+                            <div class="profile-card__email">Username: {{adminOrderHistoryVM.usersProductsOrdersVMList.identityUsername}}</div>
+                            <div class="profile-card__edit">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="dashboard__address card-profile address-card address-card--featured">
+                        <div class="address-card__badge">Shipping Address</div>
+                        <div class="address-card__body">
+                            <div class="address-card__name"></div>
+                            <div class="address-card__row">
+                                {{adminOrderHistoryVM.usersProductsOrdersVMList.address}}
+                            </div>
+                            <div class="address-card__row">
+                                <div class="address-card__row-title">Phone Number</div>
+                                <div class="address-card__row-content">
+                                    {{adminOrderHistoryVM.usersProductsOrdersVMList.phoneNumber}}
+                                </div>
+                            </div>
+                            <div class="address-card__row">
+                                <div class="address-card__row-title">Email</div>
+                                <div class="address-card__row-content">
+                                    {{adminOrderHistoryVM.usersProductsOrdersVMList.email}}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

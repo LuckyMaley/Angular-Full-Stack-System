@@ -1,0 +1,87 @@
+<section>
+    <div class="container mt-5">
+        <div class="row">
+            <div class="user_nav account_nav_div">
+                <div class="account-nav">
+                    <h4 class="account-nav__title">Navigation</h4>
+                    <ul>
+                        <li class="account-nav__item">
+                            <a routerLink="/admin" routerLinkActive="active">Dashboard</a>
+                        </li>
+                        <li class="account-nav__item">
+                            <a routerLink="/admin/categories" routerLinkActive="active">Categories</a>
+                        </li>
+						<li class="account-nav__item account-nav__item--active">
+                            <a routerLink="/admin/products" routerLinkActive="active">Products</a>
+                        </li>
+                        <li class="account-nav__item">
+                            <a routerLink="/admin/orders" routerLinkActive="active">Orders</a>
+                        </li>
+                        <li class="account-nav__item">
+                            <a routerLink="/admin/shipping" routerLinkActive="active">Shippings</a>
+                        </li>
+                        <li class="account-nav__item">
+                            <a routerLink="/admin/reviews" routerLinkActive="active">Reviews</a>
+                        </li>
+                        <li class="account-nav__item">
+                            <a routerLink="/admin/wishlists" routerLinkActive="active">Wishlists</a>
+                        </li>
+                        <li class="account-nav__item">
+                            <a routerLink="/admin/payments" routerLinkActive="active">Payments</a>
+                        </li>
+                        <li class="account-nav__item">
+                            <a routerLink="/admin/users" routerLinkActive="active">Users</a>
+                        </li>
+                        <li class="account-nav__item">
+                            <a routerLink="/admin/profile" routerLinkActive="active">Profile</a>
+                        </li>
+                        <li class="account-nav__item">
+                            <a class="logout-link" (click)="Logout()">Logout</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="user_content ">
+                <div class="p-lg-5" style="text-align: right;">
+                    <a routerLink="/admin/products/create" routerLinkActive="active" class="btn btn-lg btn-dark">Create</a>
+                </div>
+                <div class="table-responsive-sm">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th class="update-seller-prod">ProductId</th>
+                                <th>Name</th>
+                                <th>Brand</th>
+                                <th>Description</th>
+                                <th>Price</th>
+                                <th>Category</th>
+                                <th>In Stock</th>
+                                <th>Image</th>
+                                <th>Actions</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                                <tr *ngFor="let item of usersProducts">
+                                    <td class="update-seller-prod">{{item.productId}}</td>
+                                    <td>{{item.name}} - {{item.type}}</td>
+                                    <td>{{item.brand}}</td>
+                                    <td>{{item.description}}</td>
+                                    <td>R{{item.price | number: '1.2-2'}}</td>
+                                    <td>{{getCategoryName(item.categoryId)}}</td>
+                                    <td>{{item.stockQuantity}}</td>
+                                    <td><img src="{{item.imageUrl}}" alt="Product Image" style="max-width: 50px; max-height: 50px;"></td>
+                                    <td>
+                                        <a routerLink="/admin/products/update/{{item.productId}}" routerLinkActive="active" class="btn btn-lg btn-info w-100">Update</a>
+                                        &nbsp;
+                                        <a routerLink="/admin/products/delete/{{item.productId}}" routerLinkActive="active" class="btn btn-lg btn-danger w-100">Delete</a>
+                                    </td>
+                                </tr>
+                        </tbody>
+                    </table>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+

@@ -1,0 +1,154 @@
+<section>
+    <div class="container">
+      <div class="trending">
+        <div class="trending_content">
+          <p class="trending_p">categories</p>
+          <h2 class="trending_title">Make A Fashion Statement With Our Latest Clothing Brands</h2>
+          <a routerLink="/shop" class="trending_btn">Shop Now</a>
+        </div>
+        <img src="assets/images/models.png" alt="" class="trending_img" />
+      </div>
+    </div>
+  </section>
+  
+  <section class="section">
+    <div class="container">
+      <div class="section_header">
+        <h3 class="section_title">Browse by Category</h3>
+      </div>
+      <div class="categories">
+        <ng-container *ngFor="let category of categories">
+          <ng-container *ngIf="getProductCountByCategory(category.categoryId) > 0; else noItems">
+            <div class="category">
+              <a routerLink="/shop" class="categories-home">
+                <p class="category_name">{{ category.name }}</p>
+                <p class="card_rating_numbers">({{ getProductCountByCategory(category.categoryId) }} items)</p>
+              </a>
+            </div>
+          </ng-container>
+          <ng-template #noItems></ng-template>
+        </ng-container>
+      </div>
+    </div>
+  </section>
+  
+  <section class="section">
+    <div class="container">
+      <div class="section_header">
+        <h3 class="section_title">Featured Products</h3>
+      </div>
+      <div class="products">
+        <div *ngFor="let product of products.slice(0, 8)" class="card">
+          <div class="card_top">
+            <a routerLink="/product/{{ product.productId }}" class="card_img_link">
+              <img src="{{product.imageUrl}}" alt="" class="card_img" />
+            </a>
+            <div class="card_top_icons">
+              <button class="wishlist-link wish-addBtn" (click)="addWishlistItem(product.productId)" style="border: none; background-color: transparent;"  tabindex="1">
+                <i class="fa fa-heart wishlist-icon card_top_icon"></i>
+              </button>
+            </div>
+          </div>
+          <div class="card_body">
+            <a routerLink="/product/{{ product.productId }}" class="card_link">
+              <h3 class="card_title">{{ product.name }} - {{ product.type }}</h3>
+              <p class="card_price">R{{ product.price | number:'1.2-2' }}</p>
+            </a>
+            <div class="card_ratings">
+              <div class="card_stars">
+                <ng-container *ngFor="let star of [1, 2, 3, 4, 5]; let i = index">
+                  <i class="fa" [ngClass]="{'fa-star': i < getAverageRating(product.productId), 'fa-star-o': i >= getAverageRating(product.productId)}"></i>
+                </ng-container>
+              </div>
+              <p class="card_rating_numbers">({{ getReviewCount(product.productId) }})</p>
+            </div>
+            <a class="add_to_cart cart-addBtn" (click)="addToCart(product, +1)">
+              Add to Cart
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="container_btn">
+        <a routerLink="/shop" class="container_btn_a">VIEW ALL PRODUCTS</a>
+      </div>
+    </div>
+  </section>
+  
+  <section class="section">
+    <div class="container">
+        <div class="section_header">
+            <h3 class="section_title">Latest Fashion</h3>
+        </div>
+        <div class="gallery">
+            <div class="gallery_item gallery_item_1">
+                <img src="assets/images/gallery/new-arrivals/t-shirts.jpg"
+                     alt="Bo image"
+                     class="gallery_item_img" />
+                <div class="gallery_item_content">
+                    <div class="gallery_item_title">T-shirts</div>
+                    <p class="gallery_item_p">
+                        Lorem ipsum dolor sit amet consectetur adipisicing.
+                    </p>
+                    <a routerLink="/shop" class="gallery_item_link">SHOP NOW</a>
+                </div>
+            </div>
+            <div class="gallery_item gallery_item_2">
+                <img src="assets/images/gallery/gallery-2.png"
+                     alt=""
+                     class="gallery_item_img" />
+                <div class="gallery_item_content">
+                    <div class="gallery_item_title">Hats</div>
+                    <p class="gallery_item_p">
+                        Lorem ipsum dolor sit amet consectetur adipisicing.
+                    </p>
+                    <a routerLink="/shop" class="gallery_item_link">SHOP NOW</a>
+                </div>
+            </div>
+            <div class="gallery_item gallery_item_3">
+                <img src="assets/images/gallery/new-arrivals/ladies-jackets.jpg"
+                     alt=""
+                     class="gallery_item_img" />
+                <div class="gallery_item_content">
+                    <div class="gallery_item_title">Jackets</div>
+                    <p class="gallery_item_p">
+                        Lorem ipsum dolor sit amet consectetur adipisicing.
+                    </p>
+                    <a routerLink="/shop" class="gallery_item_link">SHOP NOW</a>
+                </div>
+            </div>
+            <div class="gallery_item gallery_item_4">
+                <img src="assets/images/gallery/new-arrivals/shoes.jpg"
+                     alt=""
+                     class="gallery_item_img" />
+                <div class="gallery_item_content">
+                    <div class="gallery_item_title">Shoes</div>
+                    <p class="gallery_item_p">
+                        Lorem ipsum dolor sit amet consectetur adipisicing.
+                    </p>
+                    <a routerLink="/shop" class="gallery_item_link">SHOP NOW</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+  <section class="section">
+    <div class="container services_container">
+      <div class="service">
+        <img src="assets/images/icons/service-1.png" alt="" class="service_img" />
+        <h3 class="service_title">FAST AND FREE DELIVERY</h3>
+        <p class="service_p">Lorem ipsum dolor sit amet consectetur.</p>
+      </div>
+      <div class="service">
+        <img src="assets/images/icons/service-2.png" alt="" class="service_img" />
+        <h3 class="service_title">24/7 SUPPORT</h3>
+        <p class="service_p">Lorem ipsum dolor sit amet consectetur.</p>
+      </div>
+      <div class="service">
+        <img src="assets/images/icons/service-3.png" alt="" class="service_img" />
+        <h3 class="service_title">MONEY BACK GUARANTY</h3>
+        <p class="service_p">Lorem ipsum dolor sit amet consectetur.</p>
+      </div>
+    </div>
+  </section>
+  

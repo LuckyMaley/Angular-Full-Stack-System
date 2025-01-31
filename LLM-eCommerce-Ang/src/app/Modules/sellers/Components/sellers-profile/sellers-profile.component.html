@@ -1,0 +1,91 @@
+<section>
+    <div class="container mt-5" style="min-height: 500px;">
+        <div class="row">
+            <div class="user_nav account_nav_div">
+                <div class="account-nav">
+                  <h4 class="account-nav__title">Navigation</h4>
+                  <ul>
+                    <li class="account-nav__item">
+                      <a routerLink="/seller" routerLinkActive="active">Dashboard</a>
+                    </li>
+                    <li class="account-nav__item">
+                      <a routerLink="/seller/products" routerLinkActive="active"
+                        >Products</a
+                      >
+                    </li>
+                    <li class="account-nav__item">
+                      <a routerLink="/seller/orders" routerLinkActive="active"
+                        >Orders</a
+                      >
+                    </li>
+                    <li class="account-nav__item account-nav__item--active">
+                      <a routerLink="/seller/profile" routerLinkActive="active"
+                        >Profile</a
+                      >
+                    </li>
+                    <li class="account-nav__item">
+                      <a class="logout-link" (click)="Logout()">Logout</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            <div class="user_content ">
+                <div class="card-profile">
+                <form #profileForm="ngForm" autocomplete="on" (submit)="onSubmit(profileForm)" class="auth_form">
+                        <div id="Error" style="color:red;" *ngIf="errorMessage">
+                            <p>{{ errorMessage }}</p>
+                        </div>
+    
+                        <div class="form_group">
+                            <input type="text" class="form_input" placeholder="Enter your FirstName" #firstName="ngModel"
+                            name="firstName" [(ngModel)]="formModel.firstName" minlength="3" required />
+                            <div *ngIf="firstName.invalid && (firstName.dirty || firstName.touched)" class="alert">
+                                <div *ngIf="firstName.errors?.['required']" class="text-danger">FirstName is required.</div>
+                                <div *ngIf="firstName.errors?.['minlength']" class="text-danger">Invalid FirstName - Must be at least 3 characters.</div>
+                            </div>
+                        </div>
+                        <div class="form_group">
+                            <input type="text" class="form_input" placeholder="Enter your LastName" #lastName="ngModel"
+                            name="lastName" [(ngModel)]="formModel.lastName" minlength="3" required />
+                            <div *ngIf="lastName.invalid && (lastName.dirty || lastName.touched)" class="alert">
+                                <div *ngIf="lastName.errors?.['required']" class="text-danger">LastName is required.</div>
+                                <div *ngIf="lastName.errors?.['minlength']" class="text-danger">Invalid LastName - Must be at least 3 characters.</div>
+                              </div>
+                        </div>
+                        <div class="form_group">
+                            <input type="email" class="form_input" placeholder="Enter your email" #email="ngModel" name="email"
+                            [(ngModel)]="formModel.email" minlength="7" required />
+                            <div *ngIf="email.invalid && (email.dirty || email.touched)" class="alert">
+                                <div *ngIf="email.errors?.['email']" class="text-danger">Primary email not valid.</div>
+                                <div *ngIf="email.errors?.['required']" class="text-danger">Email address is required</div>
+                        
+                                <div *ngIf="email.errors?.['pattern']" class="text-danger">Please provide a valid email address</div>
+                                <div *ngIf="email.errors?.['minlength']" class="text-danger">Please provide a valid email address - Must be at least 7 characters with @.</div>
+                              </div>
+                        </div>
+                        <div class="form_group">
+                            <input type="text" class="form_input" placeholder="Enter your Address" #address="ngModel"
+                            name="address" [(ngModel)]="formModel.address" minlength="3" required />
+                            <div *ngIf="address.invalid && (address.dirty || address.touched)" class="alert">
+                                <div *ngIf="address.errors?.['required']" class="text-danger">Address is required.</div>
+                                <div *ngIf="address.errors?.['minlength']" class="text-danger">Invalid Address - Must be at least 3 characters.</div>
+                              </div>
+                        </div>
+                        <div class="form_group">
+                            <input type="text" class="form_input" placeholder="PhoneNumber" #phoneNumber="ngModel"
+                            name="phoneNumber" [(ngModel)]="formModel.phoneNumber" minlength="10" required />
+                            <div *ngIf="phoneNumber.invalid && (phoneNumber.dirty || phoneNumber.touched)" class="alert">
+                                <div *ngIf="phoneNumber.errors?.['required']" class="text-danger">phoneNumber is required.</div>
+                                <div *ngIf="phoneNumber.errors?.['minlength']" class="text-danger">Invalid phoneNumber - Must be at least 10 characters.</div>
+                              </div>
+                        </div>
+                        <div class="form_group">
+                            <input type="submit" value="Save" [disabled]="profileForm.invalid" class="form_btn" />
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+

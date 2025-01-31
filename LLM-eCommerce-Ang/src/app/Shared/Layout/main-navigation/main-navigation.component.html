@@ -1,0 +1,423 @@
+<header>
+  <div
+    class="top_nav"
+    *ngIf="!isLoggedIn || (isCustomerUser && !isSellerUser && !isAdminUser)"
+  >
+    <div class="container top_nav_container">
+      <div class="top_nav_wrapper">
+        <p class="tap_nav_p">
+          Free Express Delivery On Orders Over R500
+          <a
+            class="top_nav_link"
+            routerLink="/shop" routerLinkActive="active"
+            >SHOP NOW</a
+          >
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="top_nav_admin" *ngIf="isLoggedIn && isAdminUser">
+    <div class="container top_nav_container">
+      <div class="top_nav_wrapper">
+        <p class="tap_nav_p">Administrator</p>
+      </div>
+    </div>
+  </div>
+  <div class="top_nav_seller" *ngIf="isLoggedIn && isSellerUser">
+    <div class="container top_nav_container">
+      <div class="top_nav_wrapper">
+        <p class="tap_nav_p">Seller</p>
+      </div>
+    </div>
+  </div>
+  <nav class="nav">
+    <div class="container nav_container">
+      <div class="nav_brand">
+        <span class="hamburger">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="w-6 h-6"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+            />
+          </svg>
+        </span>
+        <a
+          *ngIf="
+            !isLoggedIn || (isCustomerUser && !isSellerUser && !isAdminUser)
+          "
+          routerLink="/home"
+          routerLinkActive="active"
+          class="nav_logo"
+          >INSTANT ORDER</a
+        >
+        <a
+          *ngIf="isLoggedIn && isAdminUser"
+          routerLink="/admin"
+          routerLinkActive="active"
+          class="nav_logo"
+          >INSTANT ORDER</a
+        >
+        <a
+          routerLink="/seller"
+          *ngIf="isLoggedIn && isSellerUser"
+          routerLinkActive="active"
+          class="nav_logo"
+          >INSTANT ORDER</a
+        >
+      </div>
+      <ul class="nav_list">
+        <li
+          *ngIf="
+            !isLoggedIn || (isCustomerUser && !isSellerUser && !isAdminUser)
+          "
+          class="nav_item"
+        >
+          <a class="nav_link" routerLink="/home" routerLinkActive="active"
+            >Home</a
+          >
+        </li>
+        <li
+          *ngIf="
+            !isLoggedIn || (isCustomerUser && !isSellerUser && !isAdminUser)
+          "
+          class="nav_item"
+        >
+          <a class="nav_link" routerLink="/mens" routerLinkActive="active"
+            >Men's Wear</a
+          >
+        </li>
+        <li
+          *ngIf="
+            !isLoggedIn || (isCustomerUser && !isSellerUser && !isAdminUser)
+          "
+          class="nav_item"
+        >
+          <a class="nav_link" routerLink="/womens" routerLinkActive="active"
+            >Women's Wear</a
+          >
+        </li>
+        <li
+          *ngIf="
+            !isLoggedIn || (isCustomerUser && !isSellerUser && !isAdminUser)
+          "
+          class="nav_item"
+        >
+          <a class="nav_link" routerLink="/about" routerLinkActive="active"
+            >About Us</a
+          >
+        </li>
+      </ul>
+      <div class="nav_items">
+        <form
+          *ngIf="
+            !isLoggedIn || (isCustomerUser && !isSellerUser && !isAdminUser)
+          "
+          action="#"
+          class="nav_form"
+        >
+          <input type="text" class="nav_input" placeholder="search here...." />
+          <img src="assets/images/search.png" alt="" class="nav_search" />
+        </form>
+        <a
+          *ngIf="
+            !isLoggedIn || (isCustomerUser && !isSellerUser && !isAdminUser)
+          "
+          routerLink="/wishlist"
+          routerLinkActive="active"
+          ><img src="assets/images/heart.png" alt="" class="nav_heart"
+        /></a>
+        <a
+          *ngIf="
+            !isLoggedIn || (isCustomerUser && !isSellerUser && !isAdminUser)
+          "
+          routerLink="/cart"
+          routerLinkActive="active"
+        >
+          <img src="assets/images/cart.png" alt="" class="nav_cart" />
+        </a>
+
+        <div class="drop-down nav_person">
+          <button class="dropbtn nav_link">
+            <img src="assets/images/person.png" alt="" />
+          </button>
+          <div class="drop-down-content">
+            <a *ngIf="isLoggedIn" class="nav_link border-bottom"
+              >Hello {{ loggedInUsername }}</a
+            >
+            <a
+              *ngIf="isAdminUser"
+              routerLink="/admin"
+              routerLinkActive="active"
+              class="nav_link"
+              >Account</a
+            >
+            <a
+              *ngIf="isSellerUser"
+              routerLink="/seller"
+              routerLinkActive="active"
+              class="nav_link"
+              >Account</a
+            >
+            <a
+              *ngIf="isCustomerUser"
+              routerLink="/customer"
+              routerLinkActive="active"
+              class="nav_link"
+              >Account</a
+            >
+            <a
+              *ngIf="isLoggedIn"
+              id="nav7"
+              routerLinkActive="active"
+              (click)="Logout()"
+              class="logout-link"
+              >Logout</a
+            >
+            <a
+              *ngIf="!isLoggedIn"
+              id="nav8"
+              routerLink="/login"
+              routerLinkActive="active"
+              class="nav_link"
+              >Sign In</a
+            >
+            <a
+              *ngIf="!isLoggedIn"
+              id="nav9"
+              routerLink="/register"
+              routerLinkActive="active"
+              class="nav_link"
+              >Sign Up</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <nav class="mobile_nav mobile_nav mobile_nav_hide">
+    <ul class="mobile_nav_list">
+      <li
+        *ngIf="!isLoggedIn || (isCustomerUser && !isSellerUser && !isAdminUser)"
+        class="mobile_nav_item"
+      >
+        <a routerLink="/home" routerLinkActive="active" class="mobile_nav_link"
+          >Home</a
+        >
+      </li>
+      <li
+        *ngIf="!isLoggedIn || (isCustomerUser && !isSellerUser && !isAdminUser)"
+        class="mobile_nav_item"
+      >
+        <a routerLink="/mens" routerLinkActive="active" class="mobile_nav_link"
+          >Men's Wear</a
+        >
+      </li>
+      <li
+        *ngIf="!isLoggedIn || (isCustomerUser && !isSellerUser && !isAdminUser)"
+        class="mobile_nav_item"
+      >
+        <a
+          routerLink="/womens"
+          routerLinkActive="active"
+          class="mobile_nav_link"
+          >Women's Wear</a
+        >
+      </li>
+      <li
+        *ngIf="!isLoggedIn || (isCustomerUser && !isSellerUser && !isAdminUser)"
+        class="mobile_nav_item"
+      >
+        <a routerLink="/about" routerLinkActive="active" class="mobile_nav_link"
+          >About Us</a
+        >
+      </li>
+      <li
+        *ngIf="!isLoggedIn || (isCustomerUser && !isSellerUser && !isAdminUser)"
+        class="mobile_nav_item"
+      >
+        <a
+          routerLink="/wishlist"
+          routerLinkActive="active"
+          class="mobile_nav_link"
+          >Wishlist</a
+        >
+      </li>
+      <li
+        *ngIf="!isLoggedIn || (isCustomerUser && !isSellerUser && !isAdminUser)"
+        class="mobile_nav_item"
+      >
+        <a routerLink="/cart" routerLinkActive="active" class="mobile_nav_link"
+          >Cart</a
+        >
+      </li>
+
+      <li *ngIf="isLoggedIn && isAdminUser" class="mobile_nav_item">
+        <a routerLink="/admin" routerLinkActive="active" class="mobile_nav_link"
+          >Dashboard</a
+        >
+      </li>
+      <li *ngIf="isLoggedIn && isAdminUser" class="mobile_nav_item">
+        <a
+          class="mobile_nav_link"
+          routerLink="/admin/categories"
+          routerLinkActive="active"
+          >Categories</a
+        >
+      </li>
+      <li *ngIf="isLoggedIn && isAdminUser" class="mobile_nav_item">
+        <a
+          class="mobile_nav_link"
+          routerLink="/admin/products"
+          routerLinkActive="active"
+          >Products</a
+        >
+      </li>
+      <li *ngIf="isLoggedIn && isAdminUser" class="mobile_nav_item">
+        <a
+          class="mobile_nav_link"
+          routerLink="/admin/orders"
+          routerLinkActive="active"
+          >Orders</a
+        >
+      </li>
+      <li *ngIf="isLoggedIn && isAdminUser" class="mobile_nav_item">
+        <a
+          class="mobile_nav_link"
+          routerLink="/admin/shipping"
+          routerLinkActive="active"
+          >Shippings</a
+        >
+      </li>
+      <li *ngIf="isLoggedIn && isAdminUser" class="mobile_nav_item">
+        <a
+          class="mobile_nav_link"
+          routerLink="/admin/reviews"
+          routerLinkActive="active"
+          >Reviews</a
+        >
+      </li>
+      <li *ngIf="isLoggedIn && isAdminUser" class="mobile_nav_item">
+        <a
+          class="mobile_nav_link"
+          routerLink="/admin/wishlists"
+          routerLinkActive="active"
+          >Wishlists</a
+        >
+      </li>
+      <li *ngIf="isLoggedIn && isAdminUser" class="mobile_nav_item">
+        <a
+          class="mobile_nav_link"
+          routerLink="/admin/payments"
+          routerLinkActive="active"
+          >Payments</a
+        >
+      </li>
+      <li *ngIf="isLoggedIn && isAdminUser" class="mobile_nav_item">
+        <a
+          class="mobile_nav_link"
+          routerLink="/admin/users"
+          routerLinkActive="active"
+          >Users</a
+        >
+      </li>
+      <li *ngIf="isLoggedIn && isAdminUser" class="mobile_nav_item">
+        <a
+          class="mobile_nav_link"
+          routerLink="/admin/profile"
+          routerLinkActive="active"
+          >Profile</a
+        >
+      </li>
+
+      <li *ngIf="isLoggedIn && isSellerUser" class="mobile_nav_item">
+        <a
+          routerLink="/seller"
+          routerLinkActive="active"
+          class="mobile_nav_link"
+          >Dashboard</a
+        >
+      </li>
+      <li *ngIf="isLoggedIn && isSellerUser" class="mobile_nav_item">
+        <a
+          class="mobile_nav_link"
+          routerLink="/seller/products"
+          routerLinkActive="active"
+          >Products</a
+        >
+      </li>
+      <li *ngIf="isLoggedIn && isSellerUser" class="mobile_nav_item">
+        <a
+          class="mobile_nav_link"
+          routerLink="/seller/orders"
+          routerLinkActive="active"
+          >Orders</a
+        >
+      </li>
+      <li *ngIf="isLoggedIn && isSellerUser" class="mobile_nav_item">
+        <a
+          id="mob-nav6"
+          class="mobile_nav_link"
+          routerLink="/seller/profile"
+          routerLinkActive="active"
+          >Profile</a
+        >
+      </li>
+
+      <li *ngIf="isLoggedIn && isCustomerUser" class="mobile_nav_item">
+        <a
+          routerLink="/customer"
+          routerLinkActive="active"
+          class="mobile_nav_link"
+          >Dashboard</a
+        >
+      </li>
+      <li *ngIf="isLoggedIn && isCustomerUser" class="mobile_nav_item">
+        <a
+          class="mobile_nav_link"
+          routerLink="/customer/orders"
+          routerLinkActive="active"
+          >Orders</a
+        >
+      </li>
+      <li *ngIf="isLoggedIn && isCustomerUser" class="mobile_nav_item">
+        <a
+          class="mobile_nav_link"
+          routerLink="/customer/profile"
+          routerLinkActive="active"
+          >Profile</a
+        >
+      </li>
+
+      <li *ngIf="isLoggedIn" class="mobile_nav_item">
+        <a
+          routerLinkActive="active"
+          (click)="Logout()"
+          class="logout-link mobile_nav_link"
+          >Logout</a
+        >
+      </li>
+      <li *ngIf="!isLoggedIn" class="mobile_nav_item">
+        <a routerLink="/login" routerLinkActive="active" class="mobile_nav_link"
+          >Sign In</a
+        >
+      </li>
+      <li *ngIf="!isLoggedIn" class="mobile_nav_item">
+        <a
+          routerLink="/register"
+          routerLinkActive="active"
+          class="mobile_nav_link"
+          >Sign Up</a
+        >
+      </li>
+    </ul>
+  </nav>
+</header>

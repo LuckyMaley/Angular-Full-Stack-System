@@ -1,0 +1,43 @@
+<section class="container">
+    <div class="auth_container">
+        <div class="auth_img">
+            <img src="assets/images/auth-image.png" alt="Image Not Found" class="auth_image" />
+        </div>
+        <div class="auth_content">
+            <form #loginform="ngForm" autocomplete="on" (submit)="onSubmit(loginform)" class="auth_form">
+                <h2 class="form_title">Login to your account</h2>
+                <p class="auth_p">Enter your details below</p>
+                <div id="Error" style="color:red;" *ngIf="errorMessage">
+                    <p>{{ errorMessage }}</p>
+                </div>
+                <div class="form_group">
+                    <input type="text" class="form_input" aria-describedby="basic-addon3" placeholder="Enter your userName"
+                      #userName="ngModel" name="userName" id="userNameInfo" [(ngModel)]="formModel.userName" required minlength="4" />
+                  
+                  <div *ngIf="userName.invalid && (userName.dirty || userName.touched)" class="alert">
+                    <div style="color:red;" *ngIf="userName.errors?.['required']">User Name is required.</div>
+                    <div style="color:red;" *ngIf="userName.errors?.['minlength']">User Name must be at least 4 characters long.</div>
+                  </div>
+                </div>
+                <div class="form_group form_pass">
+                      <input type="password" class="form_input" aria-describedby="basic-addon3" placeholder="Enter your password"
+                        #password="ngModel" name="password" id="passwordInfo" [(ngModel)]="formModel.password" required 
+                        pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*\W).{12,}$" />
+                    <div style="color:red;" *ngIf="password.invalid && (password.dirty || password.touched)" class="alert">
+                      <div style="color:red;" *ngIf="password.errors?.['required']">Password is required.</div>
+                      <div style="color:red;" *ngIf="password.errors?.['pattern']">Password must be at least 12 characters long and include at least one digit, one lowercase letter, one uppercase letter, and one non-alphanumeric character.</div>
+                    </div>
+                  </div>
+                <div class="form_group">
+                    <input id="loginBtn" type="submit" [disabled]="loginform.invalid" value="Login" class="form_btn" />
+                </div>
+                <div class="form_group">
+                    <span>
+                        Don't have an account?
+                        <a routerLink="/register" routerLinkActive="active" class="form_auth_link">Register</a>
+                    </span>
+                </div>
+            </form>
+        </div>
+    </div>
+</section>

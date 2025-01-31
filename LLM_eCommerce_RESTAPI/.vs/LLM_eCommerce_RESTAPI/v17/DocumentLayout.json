@@ -1,0 +1,1207 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\mmmm\\Documents\\AngularWorkspace\\LLM-eCommerce-WK5ANGULAR\\LLM_eCommerce_RESTAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0EF1968C-BBA6-404A-8937-D79E9693CE16}|LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI.csproj|c:\\users\\mmmm\\documents\\angularworkspace\\llm-ecommerce-wk5angular\\llm_ecommerce_restapi\\llm_ecommerce_restapi\\controllers\\customersorderdetailscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EF1968C-BBA6-404A-8937-D79E9693CE16}|LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI.csproj|solutionrelative:llm_ecommerce_restapi\\controllers\\customersorderdetailscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EF1968C-BBA6-404A-8937-D79E9693CE16}|LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI.csproj|c:\\users\\mmmm\\documents\\angularworkspace\\llm-ecommerce-wk5angular\\llm_ecommerce_restapi\\llm_ecommerce_restapi\\viewmodels\\customersorderdetailsvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EF1968C-BBA6-404A-8937-D79E9693CE16}|LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI.csproj|solutionrelative:llm_ecommerce_restapi\\viewmodels\\customersorderdetailsvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77AA4168-5A21-423E-8267-54A2D89E6DC1}|RESTApi.NunitTests\\RESTApi.NunitTests.csproj|c:\\users\\mmmm\\documents\\angularworkspace\\llm-ecommerce-wk5angular\\llm_ecommerce_restapi\\restapi.nunittests\\reviewscontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77AA4168-5A21-423E-8267-54A2D89E6DC1}|RESTApi.NunitTests\\RESTApi.NunitTests.csproj|solutionrelative:restapi.nunittests\\reviewscontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EF1968C-BBA6-404A-8937-D79E9693CE16}|LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI.csproj|c:\\users\\mmmm\\documents\\angularworkspace\\llm-ecommerce-wk5angular\\llm_ecommerce_restapi\\llm_ecommerce_restapi\\repository\\customersorderdetailsrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EF1968C-BBA6-404A-8937-D79E9693CE16}|LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI.csproj|solutionrelative:llm_ecommerce_restapi\\repository\\customersorderdetailsrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77AA4168-5A21-423E-8267-54A2D89E6DC1}|RESTApi.NunitTests\\RESTApi.NunitTests.csproj|c:\\users\\mmmm\\documents\\angularworkspace\\llm-ecommerce-wk5angular\\llm_ecommerce_restapi\\restapi.nunittests\\orderscontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77AA4168-5A21-423E-8267-54A2D89E6DC1}|RESTApi.NunitTests\\RESTApi.NunitTests.csproj|solutionrelative:restapi.nunittests\\orderscontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EF1968C-BBA6-404A-8937-D79E9693CE16}|LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI.csproj|c:\\users\\mmmm\\documents\\angularworkspace\\llm-ecommerce-wk5angular\\llm_ecommerce_restapi\\llm_ecommerce_restapi\\controllers\\customerorderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EF1968C-BBA6-404A-8937-D79E9693CE16}|LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI.csproj|solutionrelative:llm_ecommerce_restapi\\controllers\\customerorderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EF1968C-BBA6-404A-8937-D79E9693CE16}|LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI.csproj|c:\\users\\mmmm\\documents\\angularworkspace\\llm-ecommerce-wk5angular\\llm_ecommerce_restapi\\llm_ecommerce_restapi\\repository\\customersordersrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EF1968C-BBA6-404A-8937-D79E9693CE16}|LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI.csproj|solutionrelative:llm_ecommerce_restapi\\repository\\customersordersrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77AA4168-5A21-423E-8267-54A2D89E6DC1}|RESTApi.NunitTests\\RESTApi.NunitTests.csproj|c:\\users\\mmmm\\documents\\angularworkspace\\llm-ecommerce-wk5angular\\llm_ecommerce_restapi\\restapi.nunittests\\usersproductsrepotests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77AA4168-5A21-423E-8267-54A2D89E6DC1}|RESTApi.NunitTests\\RESTApi.NunitTests.csproj|solutionrelative:restapi.nunittests\\usersproductsrepotests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77AA4168-5A21-423E-8267-54A2D89E6DC1}|RESTApi.NunitTests\\RESTApi.NunitTests.csproj|c:\\users\\mmmm\\documents\\angularworkspace\\llm-ecommerce-wk5angular\\llm_ecommerce_restapi\\restapi.nunittests\\customerproductsrepotests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77AA4168-5A21-423E-8267-54A2D89E6DC1}|RESTApi.NunitTests\\RESTApi.NunitTests.csproj|solutionrelative:restapi.nunittests\\customerproductsrepotests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EF1968C-BBA6-404A-8937-D79E9693CE16}|LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI.csproj|c:\\users\\mmmm\\documents\\angularworkspace\\llm-ecommerce-wk5angular\\llm_ecommerce_restapi\\llm_ecommerce_restapi\\viewmodels\\customersreviewsvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EF1968C-BBA6-404A-8937-D79E9693CE16}|LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI.csproj|solutionrelative:llm_ecommerce_restapi\\viewmodels\\customersreviewsvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EF1968C-BBA6-404A-8937-D79E9693CE16}|LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI.csproj|c:\\users\\mmmm\\documents\\angularworkspace\\llm-ecommerce-wk5angular\\llm_ecommerce_restapi\\llm_ecommerce_restapi\\viewmodels\\customersordersvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EF1968C-BBA6-404A-8937-D79E9693CE16}|LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI.csproj|solutionrelative:llm_ecommerce_restapi\\viewmodels\\customersordersvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EF1968C-BBA6-404A-8937-D79E9693CE16}|LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI.csproj|c:\\users\\mmmm\\documents\\angularworkspace\\llm-ecommerce-wk5angular\\llm_ecommerce_restapi\\llm_ecommerce_restapi\\viewmodels\\categoriesproductsvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EF1968C-BBA6-404A-8937-D79E9693CE16}|LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI.csproj|solutionrelative:llm_ecommerce_restapi\\viewmodels\\categoriesproductsvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EF1968C-BBA6-404A-8937-D79E9693CE16}|LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI.csproj|c:\\users\\mmmm\\documents\\angularworkspace\\llm-ecommerce-wk5angular\\llm_ecommerce_restapi\\llm_ecommerce_restapi\\viewmodels\\adminupdateuserprofilevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EF1968C-BBA6-404A-8937-D79E9693CE16}|LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI.csproj|solutionrelative:llm_ecommerce_restapi\\viewmodels\\adminupdateuserprofilevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EF1968C-BBA6-404A-8937-D79E9693CE16}|LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI.csproj|c:\\users\\mmmm\\documents\\angularworkspace\\llm-ecommerce-wk5angular\\llm_ecommerce_restapi\\llm_ecommerce_restapi\\controllers\\wishlistscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EF1968C-BBA6-404A-8937-D79E9693CE16}|LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI.csproj|solutionrelative:llm_ecommerce_restapi\\controllers\\wishlistscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EF1968C-BBA6-404A-8937-D79E9693CE16}|LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI.csproj|c:\\users\\mmmm\\documents\\angularworkspace\\llm-ecommerce-wk5angular\\llm_ecommerce_restapi\\llm_ecommerce_restapi\\controllers\\orderdetailscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EF1968C-BBA6-404A-8937-D79E9693CE16}|LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI.csproj|solutionrelative:llm_ecommerce_restapi\\controllers\\orderdetailscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EF1968C-BBA6-404A-8937-D79E9693CE16}|LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI.csproj|c:\\users\\mmmm\\documents\\angularworkspace\\llm-ecommerce-wk5angular\\llm_ecommerce_restapi\\llm_ecommerce_restapi\\repository\\customersorderspaymentsrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EF1968C-BBA6-404A-8937-D79E9693CE16}|LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI.csproj|solutionrelative:llm_ecommerce_restapi\\repository\\customersorderspaymentsrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77AA4168-5A21-423E-8267-54A2D89E6DC1}|RESTApi.NunitTests\\RESTApi.NunitTests.csproj|c:\\users\\mmmm\\documents\\angularworkspace\\llm-ecommerce-wk5angular\\llm_ecommerce_restapi\\restapi.nunittests\\productscontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77AA4168-5A21-423E-8267-54A2D89E6DC1}|RESTApi.NunitTests\\RESTApi.NunitTests.csproj|solutionrelative:restapi.nunittests\\productscontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EF1968C-BBA6-404A-8937-D79E9693CE16}|LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI.csproj|c:\\users\\mmmm\\documents\\angularworkspace\\llm-ecommerce-wk5angular\\llm_ecommerce_restapi\\llm_ecommerce_restapi\\viewmodels\\orderdetailsvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EF1968C-BBA6-404A-8937-D79E9693CE16}|LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI.csproj|solutionrelative:llm_ecommerce_restapi\\viewmodels\\orderdetailsvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EF1968C-BBA6-404A-8937-D79E9693CE16}|LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI.csproj|c:\\users\\mmmm\\documents\\angularworkspace\\llm-ecommerce-wk5angular\\llm_ecommerce_restapi\\llm_ecommerce_restapi\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EF1968C-BBA6-404A-8937-D79E9693CE16}|LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI.csproj|solutionrelative:llm_ecommerce_restapi\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EF1968C-BBA6-404A-8937-D79E9693CE16}|LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI.csproj|c:\\users\\mmmm\\documents\\angularworkspace\\llm-ecommerce-wk5angular\\llm_ecommerce_restapi\\llm_ecommerce_restapi\\viewmodels\\fullordervm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EF1968C-BBA6-404A-8937-D79E9693CE16}|LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI.csproj|solutionrelative:llm_ecommerce_restapi\\viewmodels\\fullordervm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EF1968C-BBA6-404A-8937-D79E9693CE16}|LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI.csproj|c:\\users\\mmmm\\documents\\angularworkspace\\llm-ecommerce-wk5angular\\llm_ecommerce_restapi\\llm_ecommerce_restapi\\viewmodels\\orderdetailstwovm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EF1968C-BBA6-404A-8937-D79E9693CE16}|LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI.csproj|solutionrelative:llm_ecommerce_restapi\\viewmodels\\orderdetailstwovm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EF1968C-BBA6-404A-8937-D79E9693CE16}|LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI.csproj|c:\\users\\mmmm\\documents\\angularworkspace\\llm-ecommerce-wk5angular\\llm_ecommerce_restapi\\llm_ecommerce_restapi\\viewmodels\\ordersvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EF1968C-BBA6-404A-8937-D79E9693CE16}|LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI.csproj|solutionrelative:llm_ecommerce_restapi\\viewmodels\\ordersvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77AA4168-5A21-423E-8267-54A2D89E6DC1}|RESTApi.NunitTests\\RESTApi.NunitTests.csproj|c:\\users\\mmmm\\documents\\angularworkspace\\llm-ecommerce-wk5angular\\llm_ecommerce_restapi\\restapi.nunittests\\paymentscontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77AA4168-5A21-423E-8267-54A2D89E6DC1}|RESTApi.NunitTests\\RESTApi.NunitTests.csproj|solutionrelative:restapi.nunittests\\paymentscontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EF1968C-BBA6-404A-8937-D79E9693CE16}|LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI.csproj|c:\\users\\mmmm\\documents\\angularworkspace\\llm-ecommerce-wk5angular\\llm_ecommerce_restapi\\llm_ecommerce_restapi\\controllers\\paymentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EF1968C-BBA6-404A-8937-D79E9693CE16}|LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI.csproj|solutionrelative:llm_ecommerce_restapi\\controllers\\paymentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EF1968C-BBA6-404A-8937-D79E9693CE16}|LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI.csproj|c:\\users\\mmmm\\documents\\angularworkspace\\llm-ecommerce-wk5angular\\llm_ecommerce_restapi\\llm_ecommerce_restapi\\viewmodels\\productsvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EF1968C-BBA6-404A-8937-D79E9693CE16}|LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI.csproj|solutionrelative:llm_ecommerce_restapi\\viewmodels\\productsvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EF1968C-BBA6-404A-8937-D79E9693CE16}|LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI.csproj|c:\\users\\mmmm\\documents\\angularworkspace\\llm-ecommerce-wk5angular\\llm_ecommerce_restapi\\llm_ecommerce_restapi\\services\\localloghelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EF1968C-BBA6-404A-8937-D79E9693CE16}|LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI.csproj|solutionrelative:llm_ecommerce_restapi\\services\\localloghelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EF1968C-BBA6-404A-8937-D79E9693CE16}|LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI.csproj|c:\\users\\mmmm\\documents\\angularworkspace\\llm-ecommerce-wk5angular\\llm_ecommerce_restapi\\llm_ecommerce_restapi\\services\\identityhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EF1968C-BBA6-404A-8937-D79E9693CE16}|LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI.csproj|solutionrelative:llm_ecommerce_restapi\\services\\identityhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77AA4168-5A21-423E-8267-54A2D89E6DC1}|RESTApi.NunitTests\\RESTApi.NunitTests.csproj|c:\\users\\mmmm\\documents\\angularworkspace\\llm-ecommerce-wk5angular\\llm_ecommerce_restapi\\restapi.nunittests\\inmemorycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77AA4168-5A21-423E-8267-54A2D89E6DC1}|RESTApi.NunitTests\\RESTApi.NunitTests.csproj|solutionrelative:restapi.nunittests\\inmemorycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EF1968C-BBA6-404A-8937-D79E9693CE16}|LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI.csproj|c:\\users\\mmmm\\documents\\angularworkspace\\llm-ecommerce-wk5angular\\llm_ecommerce_restapi\\llm_ecommerce_restapi\\llm_ecommerce_restapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{0EF1968C-BBA6-404A-8937-D79E9693CE16}|LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI.csproj|solutionrelative:llm_ecommerce_restapi\\llm_ecommerce_restapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EF1968C-BBA6-404A-8937-D79E9693CE16}|LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI.csproj|c:\\users\\mmmm\\documents\\angularworkspace\\llm-ecommerce-wk5angular\\llm_ecommerce_restapi\\llm_ecommerce_restapi\\controllers\\userprofilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EF1968C-BBA6-404A-8937-D79E9693CE16}|LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI.csproj|solutionrelative:llm_ecommerce_restapi\\controllers\\userprofilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EF1968C-BBA6-404A-8937-D79E9693CE16}|LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI.csproj|c:\\users\\mmmm\\documents\\angularworkspace\\llm-ecommerce-wk5angular\\llm_ecommerce_restapi\\llm_ecommerce_restapi\\controllers\\uploadscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EF1968C-BBA6-404A-8937-D79E9693CE16}|LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI.csproj|solutionrelative:llm_ecommerce_restapi\\controllers\\uploadscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EF1968C-BBA6-404A-8937-D79E9693CE16}|LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI.csproj|c:\\users\\mmmm\\documents\\angularworkspace\\llm-ecommerce-wk5angular\\llm_ecommerce_restapi\\llm_ecommerce_restapi\\controllers\\applicationusercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EF1968C-BBA6-404A-8937-D79E9693CE16}|LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI.csproj|solutionrelative:llm_ecommerce_restapi\\controllers\\applicationusercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EF1968C-BBA6-404A-8937-D79E9693CE16}|LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI.csproj|c:\\users\\mmmm\\documents\\angularworkspace\\llm-ecommerce-wk5angular\\llm_ecommerce_restapi\\llm_ecommerce_restapi\\viewmodels\\paymentsvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EF1968C-BBA6-404A-8937-D79E9693CE16}|LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI.csproj|solutionrelative:llm_ecommerce_restapi\\viewmodels\\paymentsvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EF1968C-BBA6-404A-8937-D79E9693CE16}|LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI.csproj|c:\\users\\mmmm\\documents\\angularworkspace\\llm-ecommerce-wk5angular\\llm_ecommerce_restapi\\llm_ecommerce_restapi\\viewmodels\\updateuserprofilevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EF1968C-BBA6-404A-8937-D79E9693CE16}|LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI.csproj|solutionrelative:llm_ecommerce_restapi\\viewmodels\\updateuserprofilevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EF1968C-BBA6-404A-8937-D79E9693CE16}|LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI.csproj|c:\\users\\mmmm\\documents\\angularworkspace\\llm-ecommerce-wk5angular\\llm_ecommerce_restapi\\llm_ecommerce_restapi\\viewmodels\\shippingsvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EF1968C-BBA6-404A-8937-D79E9693CE16}|LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI.csproj|solutionrelative:llm_ecommerce_restapi\\viewmodels\\shippingsvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EF1968C-BBA6-404A-8937-D79E9693CE16}|LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI.csproj|c:\\users\\mmmm\\documents\\angularworkspace\\llm-ecommerce-wk5angular\\llm_ecommerce_restapi\\llm_ecommerce_restapi\\viewmodels\\useraccountvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EF1968C-BBA6-404A-8937-D79E9693CE16}|LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI.csproj|solutionrelative:llm_ecommerce_restapi\\viewmodels\\useraccountvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EF1968C-BBA6-404A-8937-D79E9693CE16}|LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI.csproj|c:\\users\\mmmm\\documents\\angularworkspace\\llm-ecommerce-wk5angular\\llm_ecommerce_restapi\\llm_ecommerce_restapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EF1968C-BBA6-404A-8937-D79E9693CE16}|LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI.csproj|solutionrelative:llm_ecommerce_restapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EF1968C-BBA6-404A-8937-D79E9693CE16}|LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI.csproj|c:\\users\\mmmm\\documents\\angularworkspace\\llm-ecommerce-wk5angular\\llm_ecommerce_restapi\\llm_ecommerce_restapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{0EF1968C-BBA6-404A-8937-D79E9693CE16}|LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI.csproj|solutionrelative:llm_ecommerce_restapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EF1968C-BBA6-404A-8937-D79E9693CE16}|LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI.csproj|c:\\users\\mmmm\\documents\\angularworkspace\\llm-ecommerce-wk5angular\\llm_ecommerce_restapi\\llm_ecommerce_restapi\\authmodels\\authenticationcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EF1968C-BBA6-404A-8937-D79E9693CE16}|LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI.csproj|solutionrelative:llm_ecommerce_restapi\\authmodels\\authenticationcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EF1968C-BBA6-404A-8937-D79E9693CE16}|LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI.csproj|c:\\users\\mmmm\\documents\\angularworkspace\\llm-ecommerce-wk5angular\\llm_ecommerce_restapi\\llm_ecommerce_restapi\\authmodels\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EF1968C-BBA6-404A-8937-D79E9693CE16}|LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI.csproj|solutionrelative:llm_ecommerce_restapi\\authmodels\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EF1968C-BBA6-404A-8937-D79E9693CE16}|LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI.csproj|c:\\users\\mmmm\\documents\\angularworkspace\\llm-ecommerce-wk5angular\\llm_ecommerce_restapi\\llm_ecommerce_restapi\\models\\efuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EF1968C-BBA6-404A-8937-D79E9693CE16}|LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI.csproj|solutionrelative:llm_ecommerce_restapi\\models\\efuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EF1968C-BBA6-404A-8937-D79E9693CE16}|LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI.csproj|c:\\users\\mmmm\\documents\\angularworkspace\\llm-ecommerce-wk5angular\\llm_ecommerce_restapi\\llm_ecommerce_restapi\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EF1968C-BBA6-404A-8937-D79E9693CE16}|LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI.csproj|solutionrelative:llm_ecommerce_restapi\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77AA4168-5A21-423E-8267-54A2D89E6DC1}|RESTApi.NunitTests\\RESTApi.NunitTests.csproj|c:\\users\\mmmm\\documents\\angularworkspace\\llm-ecommerce-wk5angular\\llm_ecommerce_restapi\\restapi.nunittests\\wishlistscontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77AA4168-5A21-423E-8267-54A2D89E6DC1}|RESTApi.NunitTests\\RESTApi.NunitTests.csproj|solutionrelative:restapi.nunittests\\wishlistscontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EF1968C-BBA6-404A-8937-D79E9693CE16}|LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI.csproj|c:\\users\\mmmm\\documents\\angularworkspace\\llm-ecommerce-wk5angular\\llm_ecommerce_restapi\\llm_ecommerce_restapi\\controllers\\reviewscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EF1968C-BBA6-404A-8937-D79E9693CE16}|LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI.csproj|solutionrelative:llm_ecommerce_restapi\\controllers\\reviewscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EF1968C-BBA6-404A-8937-D79E9693CE16}|LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI.csproj|c:\\users\\mmmm\\documents\\angularworkspace\\llm-ecommerce-wk5angular\\llm_ecommerce_restapi\\llm_ecommerce_restapi\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EF1968C-BBA6-404A-8937-D79E9693CE16}|LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI.csproj|solutionrelative:llm_ecommerce_restapi\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EF1968C-BBA6-404A-8937-D79E9693CE16}|LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI.csproj|c:\\users\\mmmm\\documents\\angularworkspace\\llm-ecommerce-wk5angular\\llm_ecommerce_restapi\\llm_ecommerce_restapi\\viewmodels\\usersproductsvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EF1968C-BBA6-404A-8937-D79E9693CE16}|LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI.csproj|solutionrelative:llm_ecommerce_restapi\\viewmodels\\usersproductsvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EF1968C-BBA6-404A-8937-D79E9693CE16}|LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI.csproj|c:\\users\\mmmm\\documents\\angularworkspace\\llm-ecommerce-wk5angular\\llm_ecommerce_restapi\\llm_ecommerce_restapi\\repository\\usersproductsrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EF1968C-BBA6-404A-8937-D79E9693CE16}|LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI.csproj|solutionrelative:llm_ecommerce_restapi\\repository\\usersproductsrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EF1968C-BBA6-404A-8937-D79E9693CE16}|LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI.csproj|c:\\users\\mmmm\\documents\\angularworkspace\\llm-ecommerce-wk5angular\\llm_ecommerce_restapi\\llm_ecommerce_restapi\\viewmodels\\wishlistsvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EF1968C-BBA6-404A-8937-D79E9693CE16}|LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI.csproj|solutionrelative:llm_ecommerce_restapi\\viewmodels\\wishlistsvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EF1968C-BBA6-404A-8937-D79E9693CE16}|LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI.csproj|c:\\users\\mmmm\\documents\\angularworkspace\\llm-ecommerce-wk5angular\\llm_ecommerce_restapi\\llm_ecommerce_restapi\\viewmodels\\reviewsvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EF1968C-BBA6-404A-8937-D79E9693CE16}|LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI.csproj|solutionrelative:llm_ecommerce_restapi\\viewmodels\\reviewsvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EF1968C-BBA6-404A-8937-D79E9693CE16}|LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI.csproj|c:\\users\\mmmm\\documents\\angularworkspace\\llm-ecommerce-wk5angular\\llm_ecommerce_restapi\\llm_ecommerce_restapi\\viewmodels\\customersorderspaymentsvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EF1968C-BBA6-404A-8937-D79E9693CE16}|LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI.csproj|solutionrelative:llm_ecommerce_restapi\\viewmodels\\customersorderspaymentsvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EF1968C-BBA6-404A-8937-D79E9693CE16}|LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI.csproj|c:\\users\\mmmm\\documents\\angularworkspace\\llm-ecommerce-wk5angular\\llm_ecommerce_restapi\\llm_ecommerce_restapi\\viewmodels\\customerswishlistsvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EF1968C-BBA6-404A-8937-D79E9693CE16}|LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI.csproj|solutionrelative:llm_ecommerce_restapi\\viewmodels\\customerswishlistsvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EF1968C-BBA6-404A-8937-D79E9693CE16}|LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI.csproj|c:\\users\\mmmm\\documents\\angularworkspace\\llm-ecommerce-wk5angular\\llm_ecommerce_restapi\\llm_ecommerce_restapi\\controllers\\customerswishlistscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EF1968C-BBA6-404A-8937-D79E9693CE16}|LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI.csproj|solutionrelative:llm_ecommerce_restapi\\controllers\\customerswishlistscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EF1968C-BBA6-404A-8937-D79E9693CE16}|LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI.csproj|c:\\users\\mmmm\\documents\\angularworkspace\\llm-ecommerce-wk5angular\\llm_ecommerce_restapi\\llm_ecommerce_restapi\\controllers\\customersorderspaymentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EF1968C-BBA6-404A-8937-D79E9693CE16}|LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI.csproj|solutionrelative:llm_ecommerce_restapi\\controllers\\customersorderspaymentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EF1968C-BBA6-404A-8937-D79E9693CE16}|LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI.csproj|c:\\users\\mmmm\\documents\\angularworkspace\\llm-ecommerce-wk5angular\\llm_ecommerce_restapi\\llm_ecommerce_restapi\\controllers\\customersreviewscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EF1968C-BBA6-404A-8937-D79E9693CE16}|LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI.csproj|solutionrelative:llm_ecommerce_restapi\\controllers\\customersreviewscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EF1968C-BBA6-404A-8937-D79E9693CE16}|LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI.csproj|c:\\users\\mmmm\\documents\\angularworkspace\\llm-ecommerce-wk5angular\\llm_ecommerce_restapi\\llm_ecommerce_restapi\\controllers\\shippingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EF1968C-BBA6-404A-8937-D79E9693CE16}|LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI.csproj|solutionrelative:llm_ecommerce_restapi\\controllers\\shippingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EF1968C-BBA6-404A-8937-D79E9693CE16}|LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI.csproj|c:\\users\\mmmm\\documents\\angularworkspace\\llm-ecommerce-wk5angular\\llm_ecommerce_restapi\\llm_ecommerce_restapi\\controllers\\usersproductscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EF1968C-BBA6-404A-8937-D79E9693CE16}|LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI.csproj|solutionrelative:llm_ecommerce_restapi\\controllers\\usersproductscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EF1968C-BBA6-404A-8937-D79E9693CE16}|LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI.csproj|c:\\users\\mmmm\\documents\\angularworkspace\\llm-ecommerce-wk5angular\\llm_ecommerce_restapi\\llm_ecommerce_restapi\\models\\shipping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EF1968C-BBA6-404A-8937-D79E9693CE16}|LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI.csproj|solutionrelative:llm_ecommerce_restapi\\models\\shipping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EF1968C-BBA6-404A-8937-D79E9693CE16}|LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI.csproj|c:\\users\\mmmm\\documents\\angularworkspace\\llm-ecommerce-wk5angular\\llm_ecommerce_restapi\\llm_ecommerce_restapi\\uploads\\yeezy-womens.jpg||{58961B49-13E0-48C0-9258-13CBC4D40279}",
+      "RelativeMoniker": "D:0:0:{0EF1968C-BBA6-404A-8937-D79E9693CE16}|LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI.csproj|solutionrelative:llm_ecommerce_restapi\\uploads\\yeezy-womens.jpg||{58961B49-13E0-48C0-9258-13CBC4D40279}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EF1968C-BBA6-404A-8937-D79E9693CE16}|LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI.csproj|c:\\users\\mmmm\\documents\\angularworkspace\\llm-ecommerce-wk5angular\\llm_ecommerce_restapi\\llm_ecommerce_restapi\\controllers\\categoriesproductscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EF1968C-BBA6-404A-8937-D79E9693CE16}|LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI.csproj|solutionrelative:llm_ecommerce_restapi\\controllers\\categoriesproductscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EF1968C-BBA6-404A-8937-D79E9693CE16}|LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI.csproj|c:\\users\\mmmm\\documents\\angularworkspace\\llm-ecommerce-wk5angular\\llm_ecommerce_restapi\\llm_ecommerce_restapi\\repository\\categoriesproductsrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EF1968C-BBA6-404A-8937-D79E9693CE16}|LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI.csproj|solutionrelative:llm_ecommerce_restapi\\repository\\categoriesproductsrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EF1968C-BBA6-404A-8937-D79E9693CE16}|LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI.csproj|c:\\users\\mmmm\\documents\\angularworkspace\\llm-ecommerce-wk5angular\\llm_ecommerce_restapi\\llm_ecommerce_restapi\\viewmodels\\usersproductsordersvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EF1968C-BBA6-404A-8937-D79E9693CE16}|LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI.csproj|solutionrelative:llm_ecommerce_restapi\\viewmodels\\usersproductsordersvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EF1968C-BBA6-404A-8937-D79E9693CE16}|LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI.csproj|c:\\users\\mmmm\\documents\\angularworkspace\\llm-ecommerce-wk5angular\\llm_ecommerce_restapi\\llm_ecommerce_restapi\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EF1968C-BBA6-404A-8937-D79E9693CE16}|LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI.csproj|solutionrelative:llm_ecommerce_restapi\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EF1968C-BBA6-404A-8937-D79E9693CE16}|LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI.csproj|c:\\users\\mmmm\\documents\\angularworkspace\\llm-ecommerce-wk5angular\\llm_ecommerce_restapi\\llm_ecommerce_restapi\\models\\llm_ecommerce_efdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EF1968C-BBA6-404A-8937-D79E9693CE16}|LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI.csproj|solutionrelative:llm_ecommerce_restapi\\models\\llm_ecommerce_efdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77AA4168-5A21-423E-8267-54A2D89E6DC1}|RESTApi.NunitTests\\RESTApi.NunitTests.csproj|c:\\users\\mmmm\\documents\\angularworkspace\\llm-ecommerce-wk5angular\\llm_ecommerce_restapi\\restapi.nunittests\\categoriescontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77AA4168-5A21-423E-8267-54A2D89E6DC1}|RESTApi.NunitTests\\RESTApi.NunitTests.csproj|solutionrelative:restapi.nunittests\\categoriescontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EF1968C-BBA6-404A-8937-D79E9693CE16}|LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI.csproj|c:\\users\\mmmm\\documents\\angularworkspace\\llm-ecommerce-wk5angular\\llm_ecommerce_restapi\\llm_ecommerce_restapi\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EF1968C-BBA6-404A-8937-D79E9693CE16}|LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI.csproj|solutionrelative:llm_ecommerce_restapi\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77AA4168-5A21-423E-8267-54A2D89E6DC1}|RESTApi.NunitTests\\RESTApi.NunitTests.csproj|c:\\users\\mmmm\\documents\\angularworkspace\\llm-ecommerce-wk5angular\\llm_ecommerce_restapi\\restapi.nunittests\\shippingscontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77AA4168-5A21-423E-8267-54A2D89E6DC1}|RESTApi.NunitTests\\RESTApi.NunitTests.csproj|solutionrelative:restapi.nunittests\\shippingscontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77AA4168-5A21-423E-8267-54A2D89E6DC1}|RESTApi.NunitTests\\RESTApi.NunitTests.csproj|c:\\users\\mmmm\\documents\\angularworkspace\\llm-ecommerce-wk5angular\\llm_ecommerce_restapi\\restapi.nunittests\\orderdetailscontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77AA4168-5A21-423E-8267-54A2D89E6DC1}|RESTApi.NunitTests\\RESTApi.NunitTests.csproj|solutionrelative:restapi.nunittests\\orderdetailscontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EF1968C-BBA6-404A-8937-D79E9693CE16}|LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI.csproj|c:\\users\\mmmm\\documents\\angularworkspace\\llm-ecommerce-wk5angular\\llm_ecommerce_restapi\\llm_ecommerce_restapi\\repository\\customerswishlistsrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EF1968C-BBA6-404A-8937-D79E9693CE16}|LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI.csproj|solutionrelative:llm_ecommerce_restapi\\repository\\customerswishlistsrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EF1968C-BBA6-404A-8937-D79E9693CE16}|LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI.csproj|c:\\users\\mmmm\\documents\\angularworkspace\\llm-ecommerce-wk5angular\\llm_ecommerce_restapi\\llm_ecommerce_restapi\\repository\\customersreviewsrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EF1968C-BBA6-404A-8937-D79E9693CE16}|LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI.csproj|solutionrelative:llm_ecommerce_restapi\\repository\\customersreviewsrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EF1968C-BBA6-404A-8937-D79E9693CE16}|LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI.csproj|c:\\users\\mmmm\\documents\\angularworkspace\\llm-ecommerce-wk5angular\\llm_ecommerce_restapi\\llm_ecommerce_restapi\\viewmodels\\categoriesvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EF1968C-BBA6-404A-8937-D79E9693CE16}|LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI.csproj|solutionrelative:llm_ecommerce_restapi\\viewmodels\\categoriesvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\local.user.LAPSAF80211\\Documents\\VisualStudioWorkspace\\LLM_eCommerce_WK2.NETREST\\LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI\\Migrations\\20240509163647_initialIdentityDBCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\local.user.LAPSAF80211\\Documents\\VisualStudioWorkspace\\LLM_eCommerce_WK2.NETREST\\LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI\\Migrations\\20240509151721_initialIdentityDBCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\local.user.LAPSAF80211\\Documents\\VisualStudioWorkspace\\LLM_eCommerce_WK2.NETREST\\LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI\\Migrations\\20240508123029_initialIdentityDBCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\local.user.LAPSAF80211\\Documents\\VisualStudioWorkspace\\LLM_eCommerce_WK2.NETREST\\LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI\\Migrations\\20240508104910_initialDBCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CustomersOrderDetailsRepo.cs",
+              "DocumentMoniker": "C:\\Users\\mmmm\\Documents\\AngularWorkspace\\LLM-eCommerce-WK5ANGULAR\\LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI\\Repository\\CustomersOrderDetailsRepo.cs",
+              "RelativeDocumentMoniker": "LLM_eCommerce_RESTAPI\\Repository\\CustomersOrderDetailsRepo.cs",
+              "ToolTip": "C:\\Users\\mmmm\\Documents\\AngularWorkspace\\LLM-eCommerce-WK5ANGULAR\\LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI\\Repository\\CustomersOrderDetailsRepo.cs",
+              "RelativeToolTip": "LLM_eCommerce_RESTAPI\\Repository\\CustomersOrderDetailsRepo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-11T23:52:43.663Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "OrdersControllerTests.cs",
+              "DocumentMoniker": "C:\\Users\\mmmm\\Documents\\AngularWorkspace\\LLM-eCommerce-WK5ANGULAR\\LLM_eCommerce_RESTAPI\\RESTApi.NunitTests\\OrdersControllerTests.cs",
+              "RelativeDocumentMoniker": "RESTApi.NunitTests\\OrdersControllerTests.cs",
+              "ToolTip": "C:\\Users\\mmmm\\Documents\\AngularWorkspace\\LLM-eCommerce-WK5ANGULAR\\LLM_eCommerce_RESTAPI\\RESTApi.NunitTests\\OrdersControllerTests.cs",
+              "RelativeToolTip": "RESTApi.NunitTests\\OrdersControllerTests.cs",
+              "ViewState": "AQIAAAQEAAAAAAAAAAAAwCEEAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T23:32:10.189Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CustomersOrderDetailsController.cs",
+              "DocumentMoniker": "C:\\Users\\mmmm\\Documents\\AngularWorkspace\\LLM-eCommerce-WK5ANGULAR\\LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI\\Controllers\\CustomersOrderDetailsController.cs",
+              "RelativeDocumentMoniker": "LLM_eCommerce_RESTAPI\\Controllers\\CustomersOrderDetailsController.cs",
+              "ToolTip": "C:\\Users\\mmmm\\Documents\\AngularWorkspace\\LLM-eCommerce-WK5ANGULAR\\LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI\\Controllers\\CustomersOrderDetailsController.cs",
+              "RelativeToolTip": "LLM_eCommerce_RESTAPI\\Controllers\\CustomersOrderDetailsController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMBAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T18:36:09.394Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ReviewsControllerTests.cs",
+              "DocumentMoniker": "C:\\Users\\mmmm\\Documents\\AngularWorkspace\\LLM-eCommerce-WK5ANGULAR\\LLM_eCommerce_RESTAPI\\RESTApi.NunitTests\\ReviewsControllerTests.cs",
+              "RelativeDocumentMoniker": "RESTApi.NunitTests\\ReviewsControllerTests.cs",
+              "ToolTip": "C:\\Users\\mmmm\\Documents\\AngularWorkspace\\LLM-eCommerce-WK5ANGULAR\\LLM_eCommerce_RESTAPI\\RESTApi.NunitTests\\ReviewsControllerTests.cs",
+              "RelativeToolTip": "RESTApi.NunitTests\\ReviewsControllerTests.cs",
+              "ViewState": "AQIAALkEAAAAAAAAAADwv9YEAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T23:55:42.592Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CustomersOrderDetailsVM.cs",
+              "DocumentMoniker": "C:\\Users\\mmmm\\Documents\\AngularWorkspace\\LLM-eCommerce-WK5ANGULAR\\LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI\\ViewModels\\CustomersOrderDetailsVM.cs",
+              "RelativeDocumentMoniker": "LLM_eCommerce_RESTAPI\\ViewModels\\CustomersOrderDetailsVM.cs",
+              "ToolTip": "C:\\Users\\mmmm\\Documents\\AngularWorkspace\\LLM-eCommerce-WK5ANGULAR\\LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI\\ViewModels\\CustomersOrderDetailsVM.cs",
+              "RelativeToolTip": "LLM_eCommerce_RESTAPI\\ViewModels\\CustomersOrderDetailsVM.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwCEAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T15:29:37.373Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CustomerOrdersController.cs",
+              "DocumentMoniker": "C:\\Users\\mmmm\\Documents\\AngularWorkspace\\LLM-eCommerce-WK5ANGULAR\\LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI\\Controllers\\CustomerOrdersController.cs",
+              "RelativeDocumentMoniker": "LLM_eCommerce_RESTAPI\\Controllers\\CustomerOrdersController.cs",
+              "ToolTip": "C:\\Users\\mmmm\\Documents\\AngularWorkspace\\LLM-eCommerce-WK5ANGULAR\\LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI\\Controllers\\CustomerOrdersController.cs",
+              "RelativeToolTip": "LLM_eCommerce_RESTAPI\\Controllers\\CustomerOrdersController.cs",
+              "ViewState": "AQIAAPwAAAAAAAAAAAAuwAoBAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T18:04:44.646Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CustomerProductsRepoTests.cs",
+              "DocumentMoniker": "C:\\Users\\mmmm\\Documents\\AngularWorkspace\\LLM-eCommerce-WK5ANGULAR\\LLM_eCommerce_RESTAPI\\RESTApi.NunitTests\\CustomerProductsRepoTests.cs",
+              "RelativeDocumentMoniker": "RESTApi.NunitTests\\CustomerProductsRepoTests.cs",
+              "ToolTip": "C:\\Users\\mmmm\\Documents\\AngularWorkspace\\LLM-eCommerce-WK5ANGULAR\\LLM_eCommerce_RESTAPI\\RESTApi.NunitTests\\CustomerProductsRepoTests.cs",
+              "RelativeToolTip": "RESTApi.NunitTests\\CustomerProductsRepoTests.cs",
+              "ViewState": "AQIAAIsAAAAAAAAAAADwvwgAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T01:03:17.436Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UsersProductsRepoTests.cs",
+              "DocumentMoniker": "C:\\Users\\mmmm\\Documents\\AngularWorkspace\\LLM-eCommerce-WK5ANGULAR\\LLM_eCommerce_RESTAPI\\RESTApi.NunitTests\\UsersProductsRepoTests.cs",
+              "RelativeDocumentMoniker": "RESTApi.NunitTests\\UsersProductsRepoTests.cs",
+              "ToolTip": "C:\\Users\\mmmm\\Documents\\AngularWorkspace\\LLM-eCommerce-WK5ANGULAR\\LLM_eCommerce_RESTAPI\\RESTApi.NunitTests\\UsersProductsRepoTests.cs",
+              "RelativeToolTip": "RESTApi.NunitTests\\UsersProductsRepoTests.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T01:33:08.922Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CustomersOrdersRepo.cs",
+              "DocumentMoniker": "C:\\Users\\mmmm\\Documents\\AngularWorkspace\\LLM-eCommerce-WK5ANGULAR\\LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI\\Repository\\CustomersOrdersRepo.cs",
+              "RelativeDocumentMoniker": "LLM_eCommerce_RESTAPI\\Repository\\CustomersOrdersRepo.cs",
+              "ToolTip": "C:\\Users\\mmmm\\Documents\\AngularWorkspace\\LLM-eCommerce-WK5ANGULAR\\LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI\\Repository\\CustomersOrdersRepo.cs",
+              "RelativeToolTip": "LLM_eCommerce_RESTAPI\\Repository\\CustomersOrdersRepo.cs",
+              "ViewState": "AQIAAFEAAAAAAAAAAAAYwMwAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-11T23:52:14.706Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CustomersReviewsVM.cs",
+              "DocumentMoniker": "C:\\Users\\mmmm\\Documents\\AngularWorkspace\\LLM-eCommerce-WK5ANGULAR\\LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI\\ViewModels\\CustomersReviewsVM.cs",
+              "RelativeDocumentMoniker": "LLM_eCommerce_RESTAPI\\ViewModels\\CustomersReviewsVM.cs",
+              "ToolTip": "C:\\Users\\mmmm\\Documents\\AngularWorkspace\\LLM-eCommerce-WK5ANGULAR\\LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI\\ViewModels\\CustomersReviewsVM.cs",
+              "RelativeToolTip": "LLM_eCommerce_RESTAPI\\ViewModels\\CustomersReviewsVM.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T16:24:49.882Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CustomersOrdersVM.cs",
+              "DocumentMoniker": "C:\\Users\\mmmm\\Documents\\AngularWorkspace\\LLM-eCommerce-WK5ANGULAR\\LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI\\ViewModels\\CustomersOrdersVM.cs",
+              "RelativeDocumentMoniker": "LLM_eCommerce_RESTAPI\\ViewModels\\CustomersOrdersVM.cs",
+              "ToolTip": "C:\\Users\\mmmm\\Documents\\AngularWorkspace\\LLM-eCommerce-WK5ANGULAR\\LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI\\ViewModels\\CustomersOrdersVM.cs",
+              "RelativeToolTip": "LLM_eCommerce_RESTAPI\\ViewModels\\CustomersOrdersVM.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAMAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T16:10:22.926Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CategoriesProductsVM.cs",
+              "DocumentMoniker": "C:\\Users\\mmmm\\Documents\\AngularWorkspace\\LLM-eCommerce-WK5ANGULAR\\LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI\\ViewModels\\CategoriesProductsVM.cs",
+              "RelativeDocumentMoniker": "LLM_eCommerce_RESTAPI\\ViewModels\\CategoriesProductsVM.cs",
+              "ToolTip": "C:\\Users\\mmmm\\Documents\\AngularWorkspace\\LLM-eCommerce-WK5ANGULAR\\LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI\\ViewModels\\CategoriesProductsVM.cs",
+              "RelativeToolTip": "LLM_eCommerce_RESTAPI\\ViewModels\\CategoriesProductsVM.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAcwA4AAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T17:27:49.478Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AdminUpdateUserProfileVM.cs",
+              "DocumentMoniker": "C:\\Users\\mmmm\\Documents\\AngularWorkspace\\LLM-eCommerce-WK5ANGULAR\\LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI\\ViewModels\\AdminUpdateUserProfileVM.cs",
+              "RelativeDocumentMoniker": "LLM_eCommerce_RESTAPI\\ViewModels\\AdminUpdateUserProfileVM.cs",
+              "ToolTip": "C:\\Users\\mmmm\\Documents\\AngularWorkspace\\LLM-eCommerce-WK5ANGULAR\\LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI\\ViewModels\\AdminUpdateUserProfileVM.cs",
+              "RelativeToolTip": "LLM_eCommerce_RESTAPI\\ViewModels\\AdminUpdateUserProfileVM.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T03:49:22.689Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "WishlistsController.cs",
+              "DocumentMoniker": "C:\\Users\\mmmm\\Documents\\AngularWorkspace\\LLM-eCommerce-WK5ANGULAR\\LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI\\Controllers\\WishlistsController.cs",
+              "RelativeDocumentMoniker": "LLM_eCommerce_RESTAPI\\Controllers\\WishlistsController.cs",
+              "ToolTip": "C:\\Users\\mmmm\\Documents\\AngularWorkspace\\LLM-eCommerce-WK5ANGULAR\\LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI\\Controllers\\WishlistsController.cs",
+              "RelativeToolTip": "LLM_eCommerce_RESTAPI\\Controllers\\WishlistsController.cs",
+              "ViewState": "AQIAAC8BAAAAAAAAAAAiwDsBAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-11T23:12:56.088Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "OrderDetailsController.cs",
+              "DocumentMoniker": "C:\\Users\\mmmm\\Documents\\AngularWorkspace\\LLM-eCommerce-WK5ANGULAR\\LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI\\Controllers\\OrderDetailsController.cs",
+              "RelativeDocumentMoniker": "LLM_eCommerce_RESTAPI\\Controllers\\OrderDetailsController.cs",
+              "ToolTip": "C:\\Users\\mmmm\\Documents\\AngularWorkspace\\LLM-eCommerce-WK5ANGULAR\\LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI\\Controllers\\OrderDetailsController.cs",
+              "RelativeToolTip": "LLM_eCommerce_RESTAPI\\Controllers\\OrderDetailsController.cs",
+              "ViewState": "AQIAAFAAAAAAAAAAAAAgwMUAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-11T18:43:06.386Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CustomersOrdersPaymentsRepo.cs",
+              "DocumentMoniker": "C:\\Users\\mmmm\\Documents\\AngularWorkspace\\LLM-eCommerce-WK5ANGULAR\\LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI\\Repository\\CustomersOrdersPaymentsRepo.cs",
+              "RelativeDocumentMoniker": "LLM_eCommerce_RESTAPI\\Repository\\CustomersOrdersPaymentsRepo.cs",
+              "ToolTip": "C:\\Users\\mmmm\\Documents\\AngularWorkspace\\LLM-eCommerce-WK5ANGULAR\\LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI\\Repository\\CustomersOrdersPaymentsRepo.cs",
+              "RelativeToolTip": "LLM_eCommerce_RESTAPI\\Repository\\CustomersOrdersPaymentsRepo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAHUAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-11T23:57:41.408Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ProductsControllerTests.cs",
+              "DocumentMoniker": "C:\\Users\\mmmm\\Documents\\AngularWorkspace\\LLM-eCommerce-WK5ANGULAR\\LLM_eCommerce_RESTAPI\\RESTApi.NunitTests\\ProductsControllerTests.cs",
+              "RelativeDocumentMoniker": "RESTApi.NunitTests\\ProductsControllerTests.cs",
+              "ToolTip": "C:\\Users\\mmmm\\Documents\\AngularWorkspace\\LLM-eCommerce-WK5ANGULAR\\LLM_eCommerce_RESTAPI\\RESTApi.NunitTests\\ProductsControllerTests.cs",
+              "RelativeToolTip": "RESTApi.NunitTests\\ProductsControllerTests.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEAAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-10T21:36:22.981Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "OrderDetailsVM.cs",
+              "DocumentMoniker": "C:\\Users\\mmmm\\Documents\\AngularWorkspace\\LLM-eCommerce-WK5ANGULAR\\LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI\\ViewModels\\OrderDetailsVM.cs",
+              "RelativeDocumentMoniker": "LLM_eCommerce_RESTAPI\\ViewModels\\OrderDetailsVM.cs",
+              "ToolTip": "C:\\Users\\mmmm\\Documents\\AngularWorkspace\\LLM-eCommerce-WK5ANGULAR\\LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI\\ViewModels\\OrderDetailsVM.cs",
+              "RelativeToolTip": "LLM_eCommerce_RESTAPI\\ViewModels\\OrderDetailsVM.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-11T18:43:37.487Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "OrdersVM.cs",
+              "DocumentMoniker": "C:\\Users\\mmmm\\Documents\\AngularWorkspace\\LLM-eCommerce-WK5ANGULAR\\LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI\\ViewModels\\OrdersVM.cs",
+              "RelativeDocumentMoniker": "LLM_eCommerce_RESTAPI\\ViewModels\\OrdersVM.cs",
+              "ToolTip": "C:\\Users\\mmmm\\Documents\\AngularWorkspace\\LLM-eCommerce-WK5ANGULAR\\LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI\\ViewModels\\OrdersVM.cs",
+              "RelativeToolTip": "LLM_eCommerce_RESTAPI\\ViewModels\\OrdersVM.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-11T09:19:15.487Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "OrdersController.cs",
+              "DocumentMoniker": "C:\\Users\\mmmm\\Documents\\AngularWorkspace\\LLM-eCommerce-WK5ANGULAR\\LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI\\Controllers\\OrdersController.cs",
+              "RelativeDocumentMoniker": "LLM_eCommerce_RESTAPI\\Controllers\\OrdersController.cs",
+              "ToolTip": "C:\\Users\\mmmm\\Documents\\AngularWorkspace\\LLM-eCommerce-WK5ANGULAR\\LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI\\Controllers\\OrdersController.cs",
+              "RelativeToolTip": "LLM_eCommerce_RESTAPI\\Controllers\\OrdersController.cs",
+              "ViewState": "AQIAAH0BAAAAAAAAAAAmwF4AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-10T21:38:32.461Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "OrderDetailsTwoVM.cs",
+              "DocumentMoniker": "C:\\Users\\mmmm\\Documents\\AngularWorkspace\\LLM-eCommerce-WK5ANGULAR\\LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI\\ViewModels\\OrderDetailsTwoVM.cs",
+              "RelativeDocumentMoniker": "LLM_eCommerce_RESTAPI\\ViewModels\\OrderDetailsTwoVM.cs",
+              "ToolTip": "C:\\Users\\mmmm\\Documents\\AngularWorkspace\\LLM-eCommerce-WK5ANGULAR\\LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI\\ViewModels\\OrderDetailsTwoVM.cs",
+              "RelativeToolTip": "LLM_eCommerce_RESTAPI\\ViewModels\\OrderDetailsTwoVM.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-31T13:00:34.849Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "FullOrderVM.cs",
+              "DocumentMoniker": "C:\\Users\\mmmm\\Documents\\AngularWorkspace\\LLM-eCommerce-WK5ANGULAR\\LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI\\ViewModels\\FullOrderVM.cs",
+              "RelativeDocumentMoniker": "LLM_eCommerce_RESTAPI\\ViewModels\\FullOrderVM.cs",
+              "ToolTip": "C:\\Users\\mmmm\\Documents\\AngularWorkspace\\LLM-eCommerce-WK5ANGULAR\\LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI\\ViewModels\\FullOrderVM.cs",
+              "RelativeToolTip": "LLM_eCommerce_RESTAPI\\ViewModels\\FullOrderVM.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-31T12:07:52.915Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "PaymentsControllerTests.cs",
+              "DocumentMoniker": "C:\\Users\\mmmm\\Documents\\AngularWorkspace\\LLM-eCommerce-WK5ANGULAR\\LLM_eCommerce_RESTAPI\\RESTApi.NunitTests\\PaymentsControllerTests.cs",
+              "RelativeDocumentMoniker": "RESTApi.NunitTests\\PaymentsControllerTests.cs",
+              "ToolTip": "C:\\Users\\mmmm\\Documents\\AngularWorkspace\\LLM-eCommerce-WK5ANGULAR\\LLM_eCommerce_RESTAPI\\RESTApi.NunitTests\\PaymentsControllerTests.cs",
+              "RelativeToolTip": "RESTApi.NunitTests\\PaymentsControllerTests.cs",
+              "ViewState": "AQIAAHsEAAAAAAAAAAAAAJUEAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T21:27:23.741Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "PaymentsController.cs",
+              "DocumentMoniker": "C:\\Users\\mmmm\\Documents\\AngularWorkspace\\LLM-eCommerce-WK5ANGULAR\\LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI\\Controllers\\PaymentsController.cs",
+              "RelativeDocumentMoniker": "LLM_eCommerce_RESTAPI\\Controllers\\PaymentsController.cs",
+              "ToolTip": "C:\\Users\\mmmm\\Documents\\AngularWorkspace\\LLM-eCommerce-WK5ANGULAR\\LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI\\Controllers\\PaymentsController.cs",
+              "RelativeToolTip": "LLM_eCommerce_RESTAPI\\Controllers\\PaymentsController.cs",
+              "ViewState": "AQIAAD4AAAAAAAAAAIA3wN0AAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-11T20:36:52.136Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ProductsVM.cs",
+              "DocumentMoniker": "C:\\Users\\mmmm\\Documents\\AngularWorkspace\\LLM-eCommerce-WK5ANGULAR\\LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI\\ViewModels\\ProductsVM.cs",
+              "RelativeDocumentMoniker": "LLM_eCommerce_RESTAPI\\ViewModels\\ProductsVM.cs",
+              "ToolTip": "C:\\Users\\mmmm\\Documents\\AngularWorkspace\\LLM-eCommerce-WK5ANGULAR\\LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI\\ViewModels\\ProductsVM.cs",
+              "RelativeToolTip": "LLM_eCommerce_RESTAPI\\ViewModels\\ProductsVM.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-11T09:22:06.106Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "LocalLogHelper.cs",
+              "DocumentMoniker": "C:\\Users\\mmmm\\Documents\\AngularWorkspace\\LLM-eCommerce-WK5ANGULAR\\LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI\\Services\\LocalLogHelper.cs",
+              "RelativeDocumentMoniker": "LLM_eCommerce_RESTAPI\\Services\\LocalLogHelper.cs",
+              "ToolTip": "C:\\Users\\mmmm\\Documents\\AngularWorkspace\\LLM-eCommerce-WK5ANGULAR\\LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI\\Services\\LocalLogHelper.cs",
+              "RelativeToolTip": "LLM_eCommerce_RESTAPI\\Services\\LocalLogHelper.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-10T07:23:06.355Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "IdentityHelper.cs",
+              "DocumentMoniker": "C:\\Users\\mmmm\\Documents\\AngularWorkspace\\LLM-eCommerce-WK5ANGULAR\\LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI\\Services\\IdentityHelper.cs",
+              "RelativeDocumentMoniker": "LLM_eCommerce_RESTAPI\\Services\\IdentityHelper.cs",
+              "ToolTip": "C:\\Users\\mmmm\\Documents\\AngularWorkspace\\LLM-eCommerce-WK5ANGULAR\\LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI\\Services\\IdentityHelper.cs",
+              "RelativeToolTip": "LLM_eCommerce_RESTAPI\\Services\\IdentityHelper.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEcAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-09T21:39:22.083Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "InMemoryContext.cs",
+              "DocumentMoniker": "C:\\Users\\mmmm\\Documents\\AngularWorkspace\\LLM-eCommerce-WK5ANGULAR\\LLM_eCommerce_RESTAPI\\RESTApi.NunitTests\\InMemoryContext.cs",
+              "RelativeDocumentMoniker": "RESTApi.NunitTests\\InMemoryContext.cs",
+              "ToolTip": "C:\\Users\\mmmm\\Documents\\AngularWorkspace\\LLM-eCommerce-WK5ANGULAR\\LLM_eCommerce_RESTAPI\\RESTApi.NunitTests\\InMemoryContext.cs",
+              "RelativeToolTip": "RESTApi.NunitTests\\InMemoryContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-11T10:24:06.067Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "LLM_eCommerce_RESTAPI.csproj",
+              "DocumentMoniker": "C:\\Users\\mmmm\\Documents\\AngularWorkspace\\LLM-eCommerce-WK5ANGULAR\\LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI.csproj",
+              "RelativeDocumentMoniker": "LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI.csproj",
+              "ToolTip": "C:\\Users\\mmmm\\Documents\\AngularWorkspace\\LLM-eCommerce-WK5ANGULAR\\LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI.csproj",
+              "RelativeToolTip": "LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI.csproj",
+              "ViewState": "AQIAAAwAAAAAAAAAAADwvx0AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-05-09T21:26:12.605Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "UserProfileController.cs",
+              "DocumentMoniker": "C:\\Users\\mmmm\\Documents\\AngularWorkspace\\LLM-eCommerce-WK5ANGULAR\\LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI\\Controllers\\UserProfileController.cs",
+              "RelativeDocumentMoniker": "LLM_eCommerce_RESTAPI\\Controllers\\UserProfileController.cs",
+              "ToolTip": "C:\\Users\\mmmm\\Documents\\AngularWorkspace\\LLM-eCommerce-WK5ANGULAR\\LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI\\Controllers\\UserProfileController.cs",
+              "RelativeToolTip": "LLM_eCommerce_RESTAPI\\Controllers\\UserProfileController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAK0BAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-11T10:17:53.666Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "UploadsController.cs",
+              "DocumentMoniker": "C:\\Users\\mmmm\\Documents\\AngularWorkspace\\LLM-eCommerce-WK5ANGULAR\\LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI\\Controllers\\UploadsController.cs",
+              "RelativeDocumentMoniker": "LLM_eCommerce_RESTAPI\\Controllers\\UploadsController.cs",
+              "ToolTip": "C:\\Users\\mmmm\\Documents\\AngularWorkspace\\LLM-eCommerce-WK5ANGULAR\\LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI\\Controllers\\UploadsController.cs",
+              "RelativeToolTip": "LLM_eCommerce_RESTAPI\\Controllers\\UploadsController.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAYwDUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-01T16:42:01.661Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "ApplicationUserController.cs",
+              "DocumentMoniker": "C:\\Users\\mmmm\\Documents\\AngularWorkspace\\LLM-eCommerce-WK5ANGULAR\\LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI\\Controllers\\ApplicationUserController.cs",
+              "RelativeDocumentMoniker": "LLM_eCommerce_RESTAPI\\Controllers\\ApplicationUserController.cs",
+              "ToolTip": "C:\\Users\\mmmm\\Documents\\AngularWorkspace\\LLM-eCommerce-WK5ANGULAR\\LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI\\Controllers\\ApplicationUserController.cs",
+              "RelativeToolTip": "LLM_eCommerce_RESTAPI\\Controllers\\ApplicationUserController.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAAewCkAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T18:47:18.045Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "PaymentsVM.cs",
+              "DocumentMoniker": "C:\\Users\\mmmm\\Documents\\AngularWorkspace\\LLM-eCommerce-WK5ANGULAR\\LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI\\ViewModels\\PaymentsVM.cs",
+              "RelativeDocumentMoniker": "LLM_eCommerce_RESTAPI\\ViewModels\\PaymentsVM.cs",
+              "ToolTip": "C:\\Users\\mmmm\\Documents\\AngularWorkspace\\LLM-eCommerce-WK5ANGULAR\\LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI\\ViewModels\\PaymentsVM.cs",
+              "RelativeToolTip": "LLM_eCommerce_RESTAPI\\ViewModels\\PaymentsVM.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-11T20:37:18.858Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "UpdateUserProfileVM.cs",
+              "DocumentMoniker": "C:\\Users\\mmmm\\Documents\\AngularWorkspace\\LLM-eCommerce-WK5ANGULAR\\LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI\\ViewModels\\UpdateUserProfileVM.cs",
+              "RelativeDocumentMoniker": "LLM_eCommerce_RESTAPI\\ViewModels\\UpdateUserProfileVM.cs",
+              "ToolTip": "C:\\Users\\mmmm\\Documents\\AngularWorkspace\\LLM-eCommerce-WK5ANGULAR\\LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI\\ViewModels\\UpdateUserProfileVM.cs",
+              "RelativeToolTip": "LLM_eCommerce_RESTAPI\\ViewModels\\UpdateUserProfileVM.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T22:24:19.022Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "ShippingsVM.cs",
+              "DocumentMoniker": "C:\\Users\\mmmm\\Documents\\AngularWorkspace\\LLM-eCommerce-WK5ANGULAR\\LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI\\ViewModels\\ShippingsVM.cs",
+              "RelativeDocumentMoniker": "LLM_eCommerce_RESTAPI\\ViewModels\\ShippingsVM.cs",
+              "ToolTip": "C:\\Users\\mmmm\\Documents\\AngularWorkspace\\LLM-eCommerce-WK5ANGULAR\\LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI\\ViewModels\\ShippingsVM.cs",
+              "RelativeToolTip": "LLM_eCommerce_RESTAPI\\ViewModels\\ShippingsVM.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-11T21:45:53.949Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "UserAccountVM.cs",
+              "DocumentMoniker": "C:\\Users\\mmmm\\Documents\\AngularWorkspace\\LLM-eCommerce-WK5ANGULAR\\LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI\\ViewModels\\UserAccountVM.cs",
+              "RelativeDocumentMoniker": "LLM_eCommerce_RESTAPI\\ViewModels\\UserAccountVM.cs",
+              "ToolTip": "C:\\Users\\mmmm\\Documents\\AngularWorkspace\\LLM-eCommerce-WK5ANGULAR\\LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI\\ViewModels\\UserAccountVM.cs",
+              "RelativeToolTip": "LLM_eCommerce_RESTAPI\\ViewModels\\UserAccountVM.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAYAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T18:00:32.815Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\mmmm\\Documents\\AngularWorkspace\\LLM-eCommerce-WK5ANGULAR\\LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI\\Program.cs",
+              "RelativeDocumentMoniker": "LLM_eCommerce_RESTAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\mmmm\\Documents\\AngularWorkspace\\LLM-eCommerce-WK5ANGULAR\\LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI\\Program.cs",
+              "RelativeToolTip": "LLM_eCommerce_RESTAPI\\Program.cs",
+              "ViewState": "AQIAAIoAAAAAAAAAAAAQwJoAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-09T21:28:08.156Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\mmmm\\Documents\\AngularWorkspace\\LLM-eCommerce-WK5ANGULAR\\LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "LLM_eCommerce_RESTAPI\\appsettings.json",
+              "ToolTip": "C:\\Users\\mmmm\\Documents\\AngularWorkspace\\LLM-eCommerce-WK5ANGULAR\\LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI\\appsettings.json",
+              "RelativeToolTip": "LLM_eCommerce_RESTAPI\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-13T02:31:36.022Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "AuthenticationContext.cs",
+              "DocumentMoniker": "C:\\Users\\mmmm\\Documents\\AngularWorkspace\\LLM-eCommerce-WK5ANGULAR\\LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI\\AuthModels\\AuthenticationContext.cs",
+              "RelativeDocumentMoniker": "LLM_eCommerce_RESTAPI\\AuthModels\\AuthenticationContext.cs",
+              "ToolTip": "C:\\Users\\mmmm\\Documents\\AngularWorkspace\\LLM-eCommerce-WK5ANGULAR\\LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI\\AuthModels\\AuthenticationContext.cs",
+              "RelativeToolTip": "LLM_eCommerce_RESTAPI\\AuthModels\\AuthenticationContext.cs",
+              "ViewState": "AQIAAGgAAAAAAAAAAAAgwHwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-09T21:52:45.497Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "C:\\Users\\mmmm\\Documents\\AngularWorkspace\\LLM-eCommerce-WK5ANGULAR\\LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI\\AuthModels\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "LLM_eCommerce_RESTAPI\\AuthModels\\ApplicationUser.cs",
+              "ToolTip": "C:\\Users\\mmmm\\Documents\\AngularWorkspace\\LLM-eCommerce-WK5ANGULAR\\LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI\\AuthModels\\ApplicationUser.cs",
+              "RelativeToolTip": "LLM_eCommerce_RESTAPI\\AuthModels\\ApplicationUser.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABAAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T16:16:05.583Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "CategoriesController.cs",
+              "DocumentMoniker": "C:\\Users\\mmmm\\Documents\\AngularWorkspace\\LLM-eCommerce-WK5ANGULAR\\LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI\\Controllers\\CategoriesController.cs",
+              "RelativeDocumentMoniker": "LLM_eCommerce_RESTAPI\\Controllers\\CategoriesController.cs",
+              "ToolTip": "C:\\Users\\mmmm\\Documents\\AngularWorkspace\\LLM-eCommerce-WK5ANGULAR\\LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI\\Controllers\\CategoriesController.cs",
+              "RelativeToolTip": "LLM_eCommerce_RESTAPI\\Controllers\\CategoriesController.cs",
+              "ViewState": "AQIAAEcAAAAAAAAAAAAgwNEAAABgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-10T13:14:32.316Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "EfUser.cs",
+              "DocumentMoniker": "C:\\Users\\mmmm\\Documents\\AngularWorkspace\\LLM-eCommerce-WK5ANGULAR\\LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI\\Models\\EfUser.cs",
+              "RelativeDocumentMoniker": "LLM_eCommerce_RESTAPI\\Models\\EfUser.cs",
+              "ToolTip": "C:\\Users\\mmmm\\Documents\\AngularWorkspace\\LLM-eCommerce-WK5ANGULAR\\LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI\\Models\\EfUser.cs",
+              "RelativeToolTip": "LLM_eCommerce_RESTAPI\\Models\\EfUser.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAA1wBsAAABDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T12:37:28.163Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "WishlistsControllerTests.cs",
+              "DocumentMoniker": "C:\\Users\\mmmm\\Documents\\AngularWorkspace\\LLM-eCommerce-WK5ANGULAR\\LLM_eCommerce_RESTAPI\\RESTApi.NunitTests\\WishlistsControllerTests.cs",
+              "RelativeDocumentMoniker": "RESTApi.NunitTests\\WishlistsControllerTests.cs",
+              "ToolTip": "C:\\Users\\mmmm\\Documents\\AngularWorkspace\\LLM-eCommerce-WK5ANGULAR\\LLM_eCommerce_RESTAPI\\RESTApi.NunitTests\\WishlistsControllerTests.cs",
+              "RelativeToolTip": "RESTApi.NunitTests\\WishlistsControllerTests.cs",
+              "ViewState": "AQIAAB4DAAAAAAAAAIAwwC0DAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T00:43:25.841Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "ReviewsController.cs",
+              "DocumentMoniker": "C:\\Users\\mmmm\\Documents\\AngularWorkspace\\LLM-eCommerce-WK5ANGULAR\\LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI\\Controllers\\ReviewsController.cs",
+              "RelativeDocumentMoniker": "LLM_eCommerce_RESTAPI\\Controllers\\ReviewsController.cs",
+              "ToolTip": "C:\\Users\\mmmm\\Documents\\AngularWorkspace\\LLM-eCommerce-WK5ANGULAR\\LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI\\Controllers\\ReviewsController.cs",
+              "RelativeToolTip": "LLM_eCommerce_RESTAPI\\Controllers\\ReviewsController.cs",
+              "ViewState": "AQIAAJwBAAAAAAAAAAApwK4BAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-11T22:37:39.831Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "C:\\Users\\mmmm\\Documents\\AngularWorkspace\\LLM-eCommerce-WK5ANGULAR\\LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "LLM_eCommerce_RESTAPI\\Controllers\\ProductsController.cs",
+              "ToolTip": "C:\\Users\\mmmm\\Documents\\AngularWorkspace\\LLM-eCommerce-WK5ANGULAR\\LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "LLM_eCommerce_RESTAPI\\Controllers\\ProductsController.cs",
+              "ViewState": "AQIAAAABAAAAAAAAAAAmwBMBAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-09T22:17:36.524Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "UsersProductsRepo.cs",
+              "DocumentMoniker": "C:\\Users\\mmmm\\Documents\\AngularWorkspace\\LLM-eCommerce-WK5ANGULAR\\LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI\\Repository\\UsersProductsRepo.cs",
+              "RelativeDocumentMoniker": "LLM_eCommerce_RESTAPI\\Repository\\UsersProductsRepo.cs",
+              "ToolTip": "C:\\Users\\mmmm\\Documents\\AngularWorkspace\\LLM-eCommerce-WK5ANGULAR\\LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI\\Repository\\UsersProductsRepo.cs",
+              "RelativeToolTip": "LLM_eCommerce_RESTAPI\\Repository\\UsersProductsRepo.cs",
+              "ViewState": "AQIAADMAAAAAAAAAAAAYwE8AAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-11T23:53:48.143Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "UsersProductsVM.cs",
+              "DocumentMoniker": "C:\\Users\\mmmm\\Documents\\AngularWorkspace\\LLM-eCommerce-WK5ANGULAR\\LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI\\ViewModels\\UsersProductsVM.cs",
+              "RelativeDocumentMoniker": "LLM_eCommerce_RESTAPI\\ViewModels\\UsersProductsVM.cs",
+              "ToolTip": "C:\\Users\\mmmm\\Documents\\AngularWorkspace\\LLM-eCommerce-WK5ANGULAR\\LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI\\ViewModels\\UsersProductsVM.cs",
+              "RelativeToolTip": "LLM_eCommerce_RESTAPI\\ViewModels\\UsersProductsVM.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-11T23:59:09.529Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "WishlistsVM.cs",
+              "DocumentMoniker": "C:\\Users\\mmmm\\Documents\\AngularWorkspace\\LLM-eCommerce-WK5ANGULAR\\LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI\\ViewModels\\WishlistsVM.cs",
+              "RelativeDocumentMoniker": "LLM_eCommerce_RESTAPI\\ViewModels\\WishlistsVM.cs",
+              "ToolTip": "C:\\Users\\mmmm\\Documents\\AngularWorkspace\\LLM-eCommerce-WK5ANGULAR\\LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI\\ViewModels\\WishlistsVM.cs",
+              "RelativeToolTip": "LLM_eCommerce_RESTAPI\\ViewModels\\WishlistsVM.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-11T23:13:45.133Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "ReviewsVM.cs",
+              "DocumentMoniker": "C:\\Users\\mmmm\\Documents\\AngularWorkspace\\LLM-eCommerce-WK5ANGULAR\\LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI\\ViewModels\\ReviewsVM.cs",
+              "RelativeDocumentMoniker": "LLM_eCommerce_RESTAPI\\ViewModels\\ReviewsVM.cs",
+              "ToolTip": "C:\\Users\\mmmm\\Documents\\AngularWorkspace\\LLM-eCommerce-WK5ANGULAR\\LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI\\ViewModels\\ReviewsVM.cs",
+              "RelativeToolTip": "LLM_eCommerce_RESTAPI\\ViewModels\\ReviewsVM.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-11T22:36:51.887Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "CustomersOrdersPaymentsVM.cs",
+              "DocumentMoniker": "C:\\Users\\mmmm\\Documents\\AngularWorkspace\\LLM-eCommerce-WK5ANGULAR\\LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI\\ViewModels\\CustomersOrdersPaymentsVM.cs",
+              "RelativeDocumentMoniker": "LLM_eCommerce_RESTAPI\\ViewModels\\CustomersOrdersPaymentsVM.cs",
+              "ToolTip": "C:\\Users\\mmmm\\Documents\\AngularWorkspace\\LLM-eCommerce-WK5ANGULAR\\LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI\\ViewModels\\CustomersOrdersPaymentsVM.cs",
+              "RelativeToolTip": "LLM_eCommerce_RESTAPI\\ViewModels\\CustomersOrdersPaymentsVM.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAA/wBoAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T17:03:39.689Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "CustomersWishlistsVM.cs",
+              "DocumentMoniker": "C:\\Users\\mmmm\\Documents\\AngularWorkspace\\LLM-eCommerce-WK5ANGULAR\\LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI\\ViewModels\\CustomersWishlistsVM.cs",
+              "RelativeDocumentMoniker": "LLM_eCommerce_RESTAPI\\ViewModels\\CustomersWishlistsVM.cs",
+              "ToolTip": "C:\\Users\\mmmm\\Documents\\AngularWorkspace\\LLM-eCommerce-WK5ANGULAR\\LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI\\ViewModels\\CustomersWishlistsVM.cs",
+              "RelativeToolTip": "LLM_eCommerce_RESTAPI\\ViewModels\\CustomersWishlistsVM.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAUwBgAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T16:47:55.007Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "CustomersWishlistsController.cs",
+              "DocumentMoniker": "C:\\Users\\mmmm\\Documents\\AngularWorkspace\\LLM-eCommerce-WK5ANGULAR\\LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI\\Controllers\\CustomersWishlistsController.cs",
+              "RelativeDocumentMoniker": "LLM_eCommerce_RESTAPI\\Controllers\\CustomersWishlistsController.cs",
+              "ToolTip": "C:\\Users\\mmmm\\Documents\\AngularWorkspace\\LLM-eCommerce-WK5ANGULAR\\LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI\\Controllers\\CustomersWishlistsController.cs",
+              "RelativeToolTip": "LLM_eCommerce_RESTAPI\\Controllers\\CustomersWishlistsController.cs",
+              "ViewState": "AQIAAGMAAAAAAAAAAAAYwHQAAABdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T18:50:18.161Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "CustomersOrdersPaymentsController.cs",
+              "DocumentMoniker": "C:\\Users\\mmmm\\Documents\\AngularWorkspace\\LLM-eCommerce-WK5ANGULAR\\LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI\\Controllers\\CustomersOrdersPaymentsController.cs",
+              "RelativeDocumentMoniker": "LLM_eCommerce_RESTAPI\\Controllers\\CustomersOrdersPaymentsController.cs",
+              "ToolTip": "C:\\Users\\mmmm\\Documents\\AngularWorkspace\\LLM-eCommerce-WK5ANGULAR\\LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI\\Controllers\\CustomersOrdersPaymentsController.cs",
+              "RelativeToolTip": "LLM_eCommerce_RESTAPI\\Controllers\\CustomersOrdersPaymentsController.cs",
+              "ViewState": "AQIAAGwAAAAAAAAAAAAYwHYAAABpAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T18:53:47.904Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "CustomersReviewsController.cs",
+              "DocumentMoniker": "C:\\Users\\mmmm\\Documents\\AngularWorkspace\\LLM-eCommerce-WK5ANGULAR\\LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI\\Controllers\\CustomersReviewsController.cs",
+              "RelativeDocumentMoniker": "LLM_eCommerce_RESTAPI\\Controllers\\CustomersReviewsController.cs",
+              "ToolTip": "C:\\Users\\mmmm\\Documents\\AngularWorkspace\\LLM-eCommerce-WK5ANGULAR\\LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI\\Controllers\\CustomersReviewsController.cs",
+              "RelativeToolTip": "LLM_eCommerce_RESTAPI\\Controllers\\CustomersReviewsController.cs",
+              "ViewState": "AQIAAP0AAAAAAAAAAAAwwOcAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T18:44:23.853Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "ShippingsController.cs",
+              "DocumentMoniker": "C:\\Users\\mmmm\\Documents\\AngularWorkspace\\LLM-eCommerce-WK5ANGULAR\\LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI\\Controllers\\ShippingsController.cs",
+              "RelativeDocumentMoniker": "LLM_eCommerce_RESTAPI\\Controllers\\ShippingsController.cs",
+              "ToolTip": "C:\\Users\\mmmm\\Documents\\AngularWorkspace\\LLM-eCommerce-WK5ANGULAR\\LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI\\Controllers\\ShippingsController.cs",
+              "RelativeToolTip": "LLM_eCommerce_RESTAPI\\Controllers\\ShippingsController.cs",
+              "ViewState": "AQIAAJUBAAAAAAAAAAAtwJ8BAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-11T21:34:26.95Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "UsersProductsController.cs",
+              "DocumentMoniker": "C:\\Users\\mmmm\\Documents\\AngularWorkspace\\LLM-eCommerce-WK5ANGULAR\\LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI\\Controllers\\UsersProductsController.cs",
+              "RelativeDocumentMoniker": "LLM_eCommerce_RESTAPI\\Controllers\\UsersProductsController.cs",
+              "ToolTip": "C:\\Users\\mmmm\\Documents\\AngularWorkspace\\LLM-eCommerce-WK5ANGULAR\\LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI\\Controllers\\UsersProductsController.cs",
+              "RelativeToolTip": "LLM_eCommerce_RESTAPI\\Controllers\\UsersProductsController.cs",
+              "ViewState": "AQIAAEMAAAAAAAAAAAAqwLYAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T13:40:05.634Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "Shipping.cs",
+              "DocumentMoniker": "C:\\Users\\mmmm\\Documents\\AngularWorkspace\\LLM-eCommerce-WK5ANGULAR\\LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI\\Models\\Shipping.cs",
+              "RelativeDocumentMoniker": "LLM_eCommerce_RESTAPI\\Models\\Shipping.cs",
+              "ToolTip": "C:\\Users\\mmmm\\Documents\\AngularWorkspace\\LLM-eCommerce-WK5ANGULAR\\LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI\\Models\\Shipping.cs",
+              "RelativeToolTip": "LLM_eCommerce_RESTAPI\\Models\\Shipping.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAxwAwAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-11T09:23:38.697Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "CategoriesProductsRepo.cs",
+              "DocumentMoniker": "C:\\Users\\mmmm\\Documents\\AngularWorkspace\\LLM-eCommerce-WK5ANGULAR\\LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI\\Repository\\CategoriesProductsRepo.cs",
+              "RelativeDocumentMoniker": "LLM_eCommerce_RESTAPI\\Repository\\CategoriesProductsRepo.cs",
+              "ToolTip": "C:\\Users\\mmmm\\Documents\\AngularWorkspace\\LLM-eCommerce-WK5ANGULAR\\LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI\\Repository\\CategoriesProductsRepo.cs",
+              "RelativeToolTip": "LLM_eCommerce_RESTAPI\\Repository\\CategoriesProductsRepo.cs",
+              "ViewState": "AQIAAD0AAAAAAAAAAAAkwEoAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-11T23:58:03.329Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "yeezy-womens.jpg",
+              "DocumentMoniker": "C:\\Users\\mmmm\\Documents\\AngularWorkspace\\LLM-eCommerce-WK5ANGULAR\\LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI\\Uploads\\yeezy-womens.jpg",
+              "RelativeDocumentMoniker": "LLM_eCommerce_RESTAPI\\Uploads\\yeezy-womens.jpg",
+              "ToolTip": "C:\\Users\\mmmm\\Documents\\AngularWorkspace\\LLM-eCommerce-WK5ANGULAR\\LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI\\Uploads\\yeezy-womens.jpg",
+              "RelativeToolTip": "LLM_eCommerce_RESTAPI\\Uploads\\yeezy-womens.jpg",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2024-06-01T20:32:54.798Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "CategoriesProductsController.cs",
+              "DocumentMoniker": "C:\\Users\\mmmm\\Documents\\AngularWorkspace\\LLM-eCommerce-WK5ANGULAR\\LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI\\Controllers\\CategoriesProductsController.cs",
+              "RelativeDocumentMoniker": "LLM_eCommerce_RESTAPI\\Controllers\\CategoriesProductsController.cs",
+              "ToolTip": "C:\\Users\\mmmm\\Documents\\AngularWorkspace\\LLM-eCommerce-WK5ANGULAR\\LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI\\Controllers\\CategoriesProductsController.cs",
+              "RelativeToolTip": "LLM_eCommerce_RESTAPI\\Controllers\\CategoriesProductsController.cs",
+              "ViewState": "AQIAAFYAAAAAAAAAAAAkwC8AAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T17:45:52.938Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "UsersProductsOrdersVM.cs",
+              "DocumentMoniker": "C:\\Users\\mmmm\\Documents\\AngularWorkspace\\LLM-eCommerce-WK5ANGULAR\\LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI\\ViewModels\\UsersProductsOrdersVM.cs",
+              "RelativeDocumentMoniker": "LLM_eCommerce_RESTAPI\\ViewModels\\UsersProductsOrdersVM.cs",
+              "ToolTip": "C:\\Users\\mmmm\\Documents\\AngularWorkspace\\LLM-eCommerce-WK5ANGULAR\\LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI\\ViewModels\\UsersProductsOrdersVM.cs",
+              "RelativeToolTip": "LLM_eCommerce_RESTAPI\\ViewModels\\UsersProductsOrdersVM.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAowAsAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T07:22:48.361Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\mmmm\\Documents\\AngularWorkspace\\LLM-eCommerce-WK5ANGULAR\\LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "LLM_eCommerce_RESTAPI\\Models\\Product.cs",
+              "ToolTip": "C:\\Users\\mmmm\\Documents\\AngularWorkspace\\LLM-eCommerce-WK5ANGULAR\\LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI\\Models\\Product.cs",
+              "RelativeToolTip": "LLM_eCommerce_RESTAPI\\Models\\Product.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAQwBgAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-01T16:06:31.279Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "LLM_eCommerce_EFDBContext.cs",
+              "DocumentMoniker": "C:\\Users\\mmmm\\Documents\\AngularWorkspace\\LLM-eCommerce-WK5ANGULAR\\LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI\\Models\\LLM_eCommerce_EFDBContext.cs",
+              "RelativeDocumentMoniker": "LLM_eCommerce_RESTAPI\\Models\\LLM_eCommerce_EFDBContext.cs",
+              "ToolTip": "C:\\Users\\mmmm\\Documents\\AngularWorkspace\\LLM-eCommerce-WK5ANGULAR\\LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI\\Models\\LLM_eCommerce_EFDBContext.cs",
+              "RelativeToolTip": "LLM_eCommerce_RESTAPI\\Models\\LLM_eCommerce_EFDBContext.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAawB0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-10T10:10:06.223Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "CategoriesControllerTests.cs",
+              "DocumentMoniker": "C:\\Users\\mmmm\\Documents\\AngularWorkspace\\LLM-eCommerce-WK5ANGULAR\\LLM_eCommerce_RESTAPI\\RESTApi.NunitTests\\CategoriesControllerTests.cs",
+              "RelativeDocumentMoniker": "RESTApi.NunitTests\\CategoriesControllerTests.cs",
+              "ToolTip": "C:\\Users\\mmmm\\Documents\\AngularWorkspace\\LLM-eCommerce-WK5ANGULAR\\LLM_eCommerce_RESTAPI\\RESTApi.NunitTests\\CategoriesControllerTests.cs",
+              "RelativeToolTip": "RESTApi.NunitTests\\CategoriesControllerTests.cs",
+              "ViewState": "AQIAACcAAAAAAAAAAAAtwDcAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T20:25:14.968Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\mmmm\\Documents\\AngularWorkspace\\LLM-eCommerce-WK5ANGULAR\\LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI\\Models\\Order.cs",
+              "RelativeDocumentMoniker": "LLM_eCommerce_RESTAPI\\Models\\Order.cs",
+              "ToolTip": "C:\\Users\\mmmm\\Documents\\AngularWorkspace\\LLM-eCommerce-WK5ANGULAR\\LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI\\Models\\Order.cs",
+              "RelativeToolTip": "LLM_eCommerce_RESTAPI\\Models\\Order.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAAAAsAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-10T21:41:38.449Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "ShippingsControllerTests.cs",
+              "DocumentMoniker": "C:\\Users\\mmmm\\Documents\\AngularWorkspace\\LLM-eCommerce-WK5ANGULAR\\LLM_eCommerce_RESTAPI\\RESTApi.NunitTests\\ShippingsControllerTests.cs",
+              "RelativeDocumentMoniker": "RESTApi.NunitTests\\ShippingsControllerTests.cs",
+              "ToolTip": "C:\\Users\\mmmm\\Documents\\AngularWorkspace\\LLM-eCommerce-WK5ANGULAR\\LLM_eCommerce_RESTAPI\\RESTApi.NunitTests\\ShippingsControllerTests.cs",
+              "RelativeToolTip": "RESTApi.NunitTests\\ShippingsControllerTests.cs",
+              "ViewState": "AQIAAEUAAAAAAAAAAAAkwCQAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T00:24:41.848Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "OrderDetailsControllerTests.cs",
+              "DocumentMoniker": "C:\\Users\\mmmm\\Documents\\AngularWorkspace\\LLM-eCommerce-WK5ANGULAR\\LLM_eCommerce_RESTAPI\\RESTApi.NunitTests\\OrderDetailsControllerTests.cs",
+              "RelativeDocumentMoniker": "RESTApi.NunitTests\\OrderDetailsControllerTests.cs",
+              "ToolTip": "C:\\Users\\mmmm\\Documents\\AngularWorkspace\\LLM-eCommerce-WK5ANGULAR\\LLM_eCommerce_RESTAPI\\RESTApi.NunitTests\\OrderDetailsControllerTests.cs",
+              "RelativeToolTip": "RESTApi.NunitTests\\OrderDetailsControllerTests.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAAACQAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T22:41:36.425Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "CustomersWishlistsRepo.cs",
+              "DocumentMoniker": "C:\\Users\\mmmm\\Documents\\AngularWorkspace\\LLM-eCommerce-WK5ANGULAR\\LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI\\Repository\\CustomersWishlistsRepo.cs",
+              "RelativeDocumentMoniker": "LLM_eCommerce_RESTAPI\\Repository\\CustomersWishlistsRepo.cs",
+              "ToolTip": "C:\\Users\\mmmm\\Documents\\AngularWorkspace\\LLM-eCommerce-WK5ANGULAR\\LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI\\Repository\\CustomersWishlistsRepo.cs",
+              "RelativeToolTip": "LLM_eCommerce_RESTAPI\\Repository\\CustomersWishlistsRepo.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAAAOcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-11T23:54:34.432Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "CustomersReviewsRepo.cs",
+              "DocumentMoniker": "C:\\Users\\mmmm\\Documents\\AngularWorkspace\\LLM-eCommerce-WK5ANGULAR\\LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI\\Repository\\CustomersReviewsRepo.cs",
+              "RelativeDocumentMoniker": "LLM_eCommerce_RESTAPI\\Repository\\CustomersReviewsRepo.cs",
+              "ToolTip": "C:\\Users\\mmmm\\Documents\\AngularWorkspace\\LLM-eCommerce-WK5ANGULAR\\LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI\\Repository\\CustomersReviewsRepo.cs",
+              "RelativeToolTip": "LLM_eCommerce_RESTAPI\\Repository\\CustomersReviewsRepo.cs",
+              "ViewState": "AQIAAOsAAAAAAAAAAAAAAPgAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-11T23:54:49.219Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "CategoriesVM.cs",
+              "DocumentMoniker": "C:\\Users\\mmmm\\Documents\\AngularWorkspace\\LLM-eCommerce-WK5ANGULAR\\LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI\\ViewModels\\CategoriesVM.cs",
+              "RelativeDocumentMoniker": "LLM_eCommerce_RESTAPI\\ViewModels\\CategoriesVM.cs",
+              "ToolTip": "C:\\Users\\mmmm\\Documents\\AngularWorkspace\\LLM-eCommerce-WK5ANGULAR\\LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI\\ViewModels\\CategoriesVM.cs",
+              "RelativeToolTip": "LLM_eCommerce_RESTAPI\\ViewModels\\CategoriesVM.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-10T13:21:52.254Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 70,
+              "Title": "20240509163647_initialIdentityDBCreate.cs",
+              "DocumentMoniker": "C:\\Users\\local.user.LAPSAF80211\\Documents\\VisualStudioWorkspace\\LLM_eCommerce_WK2.NETREST\\LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI\\Migrations\\20240509163647_initialIdentityDBCreate.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\local.user.LAPSAF80211\\Documents\\VisualStudioWorkspace\\LLM_eCommerce_WK2.NETREST\\LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI\\Migrations\\20240509163647_initialIdentityDBCreate.cs",
+              "ToolTip": "C:\\Users\\local.user.LAPSAF80211\\Documents\\VisualStudioWorkspace\\LLM_eCommerce_WK2.NETREST\\LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI\\Migrations\\20240509163647_initialIdentityDBCreate.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\local.user.LAPSAF80211\\Documents\\VisualStudioWorkspace\\LLM_eCommerce_WK2.NETREST\\LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI\\Migrations\\20240509163647_initialIdentityDBCreate.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-09T16:36:47.567Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 71,
+              "Title": "20240509151721_initialIdentityDBCreate.cs",
+              "DocumentMoniker": "C:\\Users\\local.user.LAPSAF80211\\Documents\\VisualStudioWorkspace\\LLM_eCommerce_WK2.NETREST\\LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI\\Migrations\\20240509151721_initialIdentityDBCreate.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\local.user.LAPSAF80211\\Documents\\VisualStudioWorkspace\\LLM_eCommerce_WK2.NETREST\\LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI\\Migrations\\20240509151721_initialIdentityDBCreate.cs",
+              "ToolTip": "C:\\Users\\local.user.LAPSAF80211\\Documents\\VisualStudioWorkspace\\LLM_eCommerce_WK2.NETREST\\LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI\\Migrations\\20240509151721_initialIdentityDBCreate.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\local.user.LAPSAF80211\\Documents\\VisualStudioWorkspace\\LLM_eCommerce_WK2.NETREST\\LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI\\Migrations\\20240509151721_initialIdentityDBCreate.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-09T15:17:22.172Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 72,
+              "Title": "20240508123029_initialIdentityDBCreate.cs",
+              "DocumentMoniker": "C:\\Users\\local.user.LAPSAF80211\\Documents\\VisualStudioWorkspace\\LLM_eCommerce_WK2.NETREST\\LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI\\Migrations\\20240508123029_initialIdentityDBCreate.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\local.user.LAPSAF80211\\Documents\\VisualStudioWorkspace\\LLM_eCommerce_WK2.NETREST\\LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI\\Migrations\\20240508123029_initialIdentityDBCreate.cs",
+              "ToolTip": "C:\\Users\\local.user.LAPSAF80211\\Documents\\VisualStudioWorkspace\\LLM_eCommerce_WK2.NETREST\\LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI\\Migrations\\20240508123029_initialIdentityDBCreate.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\local.user.LAPSAF80211\\Documents\\VisualStudioWorkspace\\LLM_eCommerce_WK2.NETREST\\LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI\\Migrations\\20240508123029_initialIdentityDBCreate.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T12:30:30.163Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 73,
+              "Title": "20240508104910_initialDBCreate.cs",
+              "DocumentMoniker": "C:\\Users\\local.user.LAPSAF80211\\Documents\\VisualStudioWorkspace\\LLM_eCommerce_WK2.NETREST\\LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI\\Migrations\\20240508104910_initialDBCreate.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\local.user.LAPSAF80211\\Documents\\VisualStudioWorkspace\\LLM_eCommerce_WK2.NETREST\\LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI\\Migrations\\20240508104910_initialDBCreate.cs",
+              "ToolTip": "C:\\Users\\local.user.LAPSAF80211\\Documents\\VisualStudioWorkspace\\LLM_eCommerce_WK2.NETREST\\LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI\\Migrations\\20240508104910_initialDBCreate.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\local.user.LAPSAF80211\\Documents\\VisualStudioWorkspace\\LLM_eCommerce_WK2.NETREST\\LLM_eCommerce_RESTAPI\\LLM_eCommerce_RESTAPI\\Migrations\\20240508104910_initialDBCreate.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T10:49:10.488Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

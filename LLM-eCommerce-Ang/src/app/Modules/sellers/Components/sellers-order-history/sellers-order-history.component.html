@@ -1,0 +1,66 @@
+<section class="container mt-lg-5" style="min-height: 500px;">
+
+    <div class="container">
+        <div class="row">
+            <div class="user_nav account_nav_div">
+                <div class="account-nav">
+                  <h4 class="account-nav__title">Navigation</h4>
+                  <ul>
+                    <li class="account-nav__item">
+                      <a routerLink="/seller" routerLinkActive="active">Dashboard</a>
+                    </li>
+                    <li class="account-nav__item">
+                      <a routerLink="/seller/products" routerLinkActive="active"
+                        >Products</a
+                      >
+                    </li>
+                    <li class="account-nav__item account-nav__item--active">
+                      <a routerLink="/seller/orders" routerLinkActive="active"
+                        >Orders</a
+                      >
+                    </li>
+                    <li class="account-nav__item">
+                      <a routerLink="/seller/profile" routerLinkActive="active"
+                        >Profile</a
+                      >
+                    </li>
+                    <li class="account-nav__item">
+                      <a class="logout-link" (click)="Logout()">Logout</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            <div class="user_content">
+                <div class="card card-profile">
+                    <div class="card-header">
+                        <h5>Order History</h5>
+                    </div>
+                    <div class="card-divider"></div>
+                    <div class="card-table">
+                        <div class="table-responsive-sm">
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th>Order</th>
+                                        <th>Date</th>
+                                        <th>Delivery Status</th>
+                                        <th>Total</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                        <tr *ngFor="let item of customersOrders.sort().reverse()">
+                                            <td><a routerLink="/seller/orders/{{item.orderId}}" routerLinkActive="active">View Details</a></td>
+                                            <td>{{item.orderDate | date: 'dd MMMM yyyy'}}</td>
+                                            <td>{{item.deliveryStatus}}</td>
+                                            <td>R{{item.totalAmount | number: '1.2-2'}} for {{getOrderDetail(item.orderId)}} item(s)</td>
+                                        </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+

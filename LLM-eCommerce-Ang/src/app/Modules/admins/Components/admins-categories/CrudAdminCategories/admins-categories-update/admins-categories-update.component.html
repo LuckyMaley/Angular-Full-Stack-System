@@ -1,0 +1,77 @@
+<section class="container mt-lg-5">
+    <div class="container">
+        <div class="row">
+            <div class="user_nav account_nav_div">
+                <div class="account-nav">
+                    <h4 class="account-nav__title">Navigation</h4>
+                    <ul>
+                        <li class="account-nav__item">
+                            <a routerLink="/admin" routerLinkActive="active">Dashboard</a>
+                        </li>
+                        <li class="account-nav__item account-nav__item--active">
+                            <a routerLink="/admin/categories" routerLinkActive="active">Categories</a>
+                        </li>
+                        <li class="account-nav__item">
+                            <a routerLink="/admin/products" routerLinkActive="active">Products</a>
+                        </li>
+                        <li class="account-nav__item">
+                            <a routerLink="/admin/orders" routerLinkActive="active">Orders</a>
+                        </li>
+                        <li class="account-nav__item">
+                            <a routerLink="/admin/shipping" routerLinkActive="active">Shippings</a>
+                        </li>
+                        <li class="account-nav__item">
+                            <a routerLink="/admin/reviews" routerLinkActive="active">Reviews</a>
+                        </li>
+                        <li class="account-nav__item">
+                            <a routerLink="/admin/wishlists" routerLinkActive="active">Wishlists</a>
+                        </li>
+                        <li class="account-nav__item">
+                            <a routerLink="/admin/payments" routerLinkActive="active">Payments</a>
+                        </li>
+                        <li class="account-nav__item">
+                            <a routerLink="/admin/users" routerLinkActive="active">Users</a>
+                        </li>
+                        <li class="account-nav__item">
+                            <a routerLink="/admin/profile" routerLinkActive="active">Profile</a>
+                        </li>
+                        <li class="account-nav__item">
+                            <a class="logout-link" (click)="Logout()">Logout</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="user_content ">
+                <h1>Create</h1>
+
+                <hr />
+                <div class="row">
+                    <div class="">
+                        <form #categoryUpdateForm="ngForm" autocomplete="on" (submit)="onSubmit(categoryUpdateForm)">
+                            <div id="Error" style="color:red;" *ngIf="errorMessage">
+                                <p>{{ errorMessage }}</p>
+                            </div>
+
+
+                            <div class="form_group">
+                                <input id="name" name="name" type="text" aria-describedby="basic-addon3" placeholder="Product Name" class="form_input" #name="ngModel" [(ngModel)]="formModel.name" required />
+                                <div *ngIf="name.invalid && (name.dirty || name.touched)" class="alert">
+                                    <div style="color:red;" *ngIf="name.errors?.['required']">Name is required.</div>
+                                </div>
+                            </div>
+                            <div class="form_group">
+                                <input type="submit" value="Update" [disabled]="categoryUpdateForm.invalid" class="form_btn" />
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+                <div>
+                    <a routerLink="/admin/categories" routerLinkActive="active">Back to List</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+

@@ -1,0 +1,39 @@
+<section class="container mt-lg-5">
+    <div >
+        <div class="table-responsive-sm">
+            <table>
+                <thead>
+                    <tr>
+                        <th class="update-seller-prod">WishlistId</th>
+                        <th>Product</th>
+                        <th>Name</th>
+                        <th>Brand</th>
+                        <th>Type</th>
+                        <th>Price</th>
+                        <th>Added Date</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody *ngIf="isLoggedIn">
+                        <tr *ngFor="let item of wishlists">
+                            <td class="update-seller-prod">{{item.wishlistId}}</td>
+                            <td><img src="{{getProductImg(item.productId)}}" alt="Product Image" style="max-width: 50px; max-height: 50px;"></td>
+                            <td>{{item.name}}</td>
+                            <td>{{item.brand}}</td>
+                            <td>{{item.type}}</td>
+                            <td>R{{item.price}}</td>
+                            <td>{{item.addedDate | date: 'dd MMMM yyyy'}}</td>
+                            <td class="align-middle">
+                                <button class="btn btn-info btn-lg  cart-addBtn" (click)="addToCart(item.productId)">Add to Cart</button>
+                                &nbsp;
+                                <button class="btn btn-lg btn-danger" (click)="deleteWishlistItem(item.wishlistId)"><i class="fa fa-times"></i> Remove</button>
+                                
+                            </td>
+                        </tr>
+                </tbody>
+            </table>
+            <p style="text-align: center;" *ngIf="!isLoggedIn">Please <a routerLink="/login" routerLinkActive="active">login</a> to see your wishlist</p>
+            <p style="text-align: center;" *ngIf="wishlists.length == 0">No Items on your wishlist</p>
+        </div>
+    </div>
+</section>

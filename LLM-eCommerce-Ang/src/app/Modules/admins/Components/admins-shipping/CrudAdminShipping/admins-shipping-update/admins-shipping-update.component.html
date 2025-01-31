@@ -1,0 +1,106 @@
+<section class="container mt-lg-5">
+    <div class="container">
+        <div class="row">
+            <div class="user_nav account_nav_div">
+                <div class="account-nav">
+                    <h4 class="account-nav__title">Navigation</h4>
+                    <ul>
+                        <li class="account-nav__item">
+                            <a routerLink="/admin" routerLinkActive="active">Dashboard</a>
+                        </li>
+                        <li class="account-nav__item">
+                            <a routerLink="/admin/categories" routerLinkActive="active">Categories</a>
+                        </li>
+                        <li class="account-nav__item">
+                            <a routerLink="/admin/products" routerLinkActive="active">Products</a>
+                        </li>
+                        <li class="account-nav__item">
+                            <a routerLink="/admin/orders" routerLinkActive="active">Orders</a>
+                        </li>
+                        <li class="account-nav__item account-nav__item--active">
+                            <a routerLink="/admin/shipping" routerLinkActive="active">Shippings</a>
+                        </li>
+                        <li class="account-nav__item">
+                            <a routerLink="/admin/reviews" routerLinkActive="active">Reviews</a>
+                        </li>
+                        <li class="account-nav__item">
+                            <a routerLink="/admin/wishlists" routerLinkActive="active">Wishlists</a>
+                        </li>
+                        <li class="account-nav__item">
+                            <a routerLink="/admin/payments" routerLinkActive="active">Payments</a>
+                        </li>
+                        <li class="account-nav__item">
+                            <a routerLink="/admin/users" routerLinkActive="active">Users</a>
+                        </li>
+                        <li class="account-nav__item">
+                            <a routerLink="/admin/profile" routerLinkActive="active">Profile</a>
+                        </li>
+                        <li class="account-nav__item">
+                            <a class="logout-link" (click)="Logout()">Logout</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="user_content ">
+                <h1>Create</h1>
+
+                <hr />
+                <div class="row">
+                    <div class="">
+                        <form #shippingCreateForm="ngForm" autocomplete="on" (submit)="onSubmit(idPassedIn,shippingCreateForm)">
+                            <div id="Error" style="color:red;" *ngIf="errorMessage">
+                                <p>{{ errorMessage }}</p>
+                            </div>
+
+
+                            <div class="form_group">
+                                <input id="trackingNumber" name="trackingNumber" type="text" aria-describedby="basic-addon3" placeholder="Tracking Number" readonly class="form_input" #trackingNumber="ngModel" [(ngModel)]="formModel.trackingNumber" required />
+                                <div *ngIf="trackingNumber.invalid && (trackingNumber.dirty || trackingNumber.touched)" class="alert">
+                                    <div style="color:red;" *ngIf="trackingNumber.errors?.['required']">Tracking Number is required.</div>
+                                </div>
+                            </div>
+                            <div class="form_group">
+                                <input id="shippingDate" name="shippingDate" type="date" aria-describedby="basic-addon3" placeholder="Shipping Date" class="form_input" #shippingDate="ngModel" [ngModel]="getDate()" (ngModelChange)="setDate($event)" required />
+                                <div *ngIf="shippingDate.invalid && (shippingDate.dirty || shippingDate.touched)" class="alert">
+                                    <div style="color:red;" *ngIf="shippingDate.errors?.['required']">Shipping Date is required.</div>
+                                </div>
+                            </div>
+                            <div class="form_group">
+                                <input id="shippingAddress" name="shippingAddress" aria-describedby="basic-addon3" type="text" placeholder="Shipping Address" class="form_input" #shippingAddress="ngModel" [(ngModel)]="formModel.shippingAddress" required />
+                                <div *ngIf="shippingAddress.invalid && (shippingAddress.dirty || shippingAddress.touched)" class="alert">
+                                    <div style="color:red;" *ngIf="shippingAddress.errors?.['required']">Shipping Address is required.</div>
+                                </div>
+                            </div>
+                            <div class="form_group">
+                                <input id="shippingMethod" name="shippingMethod" aria-describedby="basic-addon3" type="text" placeholder="Shipping Method" class="form_input"  #shippingMethod="ngModel" [(ngModel)]="formModel.shippingMethod"  required />
+                                <div *ngIf="shippingMethod.invalid && (shippingMethod.dirty || shippingMethod.touched)" class="alert">
+                                    <div style="color:red;" *ngIf="shippingMethod.errors?.['required']">Shipping Method is required.</div>
+                                </div>
+                            </div>
+                            <div class="form_group">
+                                <select id="deliveryStatus" name="deliveryStatus" aria-describedby="basic-addon3"  class="form_input" #deliveryStatus="ngModel" [(ngModel)]="formModel.deliveryStatus"  required>
+                                    <option value="">Select Type</option>
+                                    <option value="Delivered">Delivered</option>
+                                    <option value="Pending">Pending</option>
+                                </select>
+                                <div *ngIf="deliveryStatus.invalid && (deliveryStatus.dirty || deliveryStatus.touched)" class="alert">
+                                    <div style="color:red;" *ngIf="deliveryStatus.errors?.['required']">Delivery Status is required.</div>
+                                </div>
+                            </div>
+                            <div class="form_group">
+                                <input type="submit" value="Save" [disabled]="shippingCreateForm.invalid" class="form_btn" />
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+                <div>
+                    <a routerLink="/admin/products" routerLinkActive="active">Back to List</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+

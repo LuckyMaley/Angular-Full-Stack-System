@@ -1,0 +1,131 @@
+<section class="container mt-lg-5">
+    <div class="container">
+        <div class="row">
+            <div class="user_nav account_nav_div">
+                <div class="account-nav">
+                    <h4 class="account-nav__title">Navigation</h4>
+                    <ul>
+                        <li class="account-nav__item">
+                            <a routerLink="/admin" routerLinkActive="active">Dashboard</a>
+                        </li>
+                        <li class="account-nav__item">
+                            <a routerLink="/admin/categories" routerLinkActive="active">Categories</a>
+                        </li>
+                        <li class="account-nav__item account-nav__item--active">
+                            <a routerLink="/admin/products" routerLinkActive="active">Products</a>
+                        </li>
+                        <li class="account-nav__item">
+                            <a routerLink="/admin/orders" routerLinkActive="active">Orders</a>
+                        </li>
+                        <li class="account-nav__item">
+                            <a routerLink="/admin/shipping" routerLinkActive="active">Shippings</a>
+                        </li>
+                        <li class="account-nav__item">
+                            <a routerLink="/admin/reviews" routerLinkActive="active">Reviews</a>
+                        </li>
+                        <li class="account-nav__item">
+                            <a routerLink="/admin/wishlists" routerLinkActive="active">Wishlists</a>
+                        </li>
+                        <li class="account-nav__item">
+                            <a routerLink="/admin/payments" routerLinkActive="active">Payments</a>
+                        </li>
+                        <li class="account-nav__item">
+                            <a routerLink="/admin/users" routerLinkActive="active">Users</a>
+                        </li>
+                        <li class="account-nav__item">
+                            <a routerLink="/admin/profile" routerLinkActive="active">Profile</a>
+                        </li>
+                        <li class="account-nav__item">
+                            <a class="logout-link" (click)="Logout()">Logout</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="user_content ">
+                <h1>Create</h1>
+
+                <hr />
+                <div class="row">
+                    <div class="">
+                        <form #productCreateForm="ngForm" autocomplete="on" (submit)="onSubmit(productCreateForm)">
+                            <div id="Error" style="color:red;" *ngIf="errorMessage">
+                                <p>{{ errorMessage }}</p>
+                            </div>
+
+
+                            <div class="form_group">
+                                <input id="name" name="name" type="text" aria-describedby="basic-addon3" placeholder="Product Name" class="form_input" #name="ngModel" [(ngModel)]="formModel.name" required />
+                                <div *ngIf="name.invalid && (name.dirty || name.touched)" class="alert">
+                                    <div style="color:red;" *ngIf="name.errors?.['required']">Name is required.</div>
+                                </div>
+                            </div>
+                            <div class="form_group">
+                                <input id="brand" name="brand" type="text" aria-describedby="basic-addon3" placeholder="Brand" class="form_input" #brand="ngModel" [(ngModel)]="formModel.brand" required />
+                                <div *ngIf="brand.invalid && (brand.dirty || brand.touched)" class="alert">
+                                    <div style="color:red;" *ngIf="brand.errors?.['required']">Brand is required.</div>
+                                </div>
+                            </div>
+                            <div class="form_group">
+                                <input id="description" name="description" aria-describedby="basic-addon3" type="text" placeholder="Description" class="form_input" #description="ngModel" [(ngModel)]="formModel.description" required />
+                                <div *ngIf="description.invalid && (description.dirty || description.touched)" class="alert">
+                                    <div style="color:red;" *ngIf="description.errors?.['required']">Description is required.</div>
+                                </div>
+                            </div>
+                            <div class="form_group">
+                                <select id="type" name="type" aria-describedby="basic-addon3"  class="form_input" #type="ngModel" [(ngModel)]="formModel.type" required>
+                                    <option value="">Select Type</option>
+                                    <option value="Men">Men</option>
+                                    <option value="Women">Women</option>
+                                </select>
+                                <div *ngIf="type.invalid && (type.dirty || type.touched)" class="alert">
+                                    <div style="color:red;" *ngIf="type.errors?.['required']">Type is required.</div>
+                                </div>
+                            </div>
+                            <div class="form_group">
+                                <input id="price" name="price" aria-describedby="basic-addon3" type="text" placeholder="Price" class="form_input num-input" min="0" #price="ngModel" [(ngModel)]="formModel.price" required pattern="\d+(\.\d{2})?" title="Please enter a valid price with two decimal places" />
+                                <div *ngIf="price.invalid && (price.dirty || price.touched)" class="alert">
+                                    <div style="color:red;" *ngIf="price.errors?.['required']">Price is required.</div>
+                                </div>
+                            </div>
+                            <div class="form_group">
+                                <select id="categoryId" name="categoryId" aria-describedby="basic-addon3" class="form_input" #categoryId="ngModel" [(ngModel)]="formModel.categoryId" required>
+                                    <option value="0">Select Category</option>
+                                    <option *ngFor="let category of categories" [value]="category.categoryId">{{ category.name }}</option>
+                                </select>
+                                <div *ngIf="categoryId.invalid && (categoryId.dirty || categoryId.touched)" class="alert">
+                                    <div style="color:red;" *ngIf="categoryId.errors?.['required']">Category is required.</div>
+                                </div>
+                            </div>
+                            <div class="form_group">
+                                <input id="stockQuantity" aria-describedby="basic-addon3" name="stockQuantity"  type="text" placeholder="StockQuantity" min="0" class="form_input num-input" #stockQuantity="ngModel" [(ngModel)]="formModel.stockQuantity" required />
+                                <div *ngIf="stockQuantity.invalid && (stockQuantity.dirty || stockQuantity.touched)" class="alert">
+                                    <div style="color:red;" *ngIf="stockQuantity.errors?.['required']">Stock Quantity is required.</div>
+                                </div>
+                            </div>
+                            <div class="form_group">
+                                <label for="productImage">Product Image</label>
+                                <input type="file" id="productImage" class="form_input" (change)="onFileSelected($event)">
+                                <br/>
+                                <div class="form_group">
+                                    <br />
+                                    <img [src]="formModel.imageUrl" alt="Product Image" style="max-width: 200px; max-height: 200px;">
+                                </div>
+                            </div>
+                            <br/>
+                            
+                            <br/>
+                            <div class="form_group">
+                                <input type="submit" value="Create" [disabled]="productCreateForm.invalid" class="form_btn" />
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+                <div>
+                    <a routerLink="/admin/products" routerLinkActive="active">Back to List</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>

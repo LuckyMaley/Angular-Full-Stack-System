@@ -1,0 +1,119 @@
+<section class="container mt-lg-5">
+    <div class="container">
+        <div class="row">
+            <div class="user_nav account_nav_div">
+                <div class="account-nav">
+                    <h4 class="account-nav__title">Navigation</h4>
+                    <ul>
+                        <li class="account-nav__item account-nav__item--active">
+                            <a routerLink="/admin" routerLinkActive="active">Dashboard</a>
+                        </li>
+                        <li class="account-nav__item">
+                            <a routerLink="/admin/categories" routerLinkActive="active">Categories</a>
+                        </li>
+                        <li class="account-nav__item">
+                            <a routerLink="/admin/products" routerLinkActive="active">Products</a>
+                        </li>
+                        <li class="account-nav__item">
+                            <a routerLink="/admin/orders" routerLinkActive="active">Orders</a>
+                        </li>
+                        <li class="account-nav__item">
+                            <a routerLink="/admin/shipping" routerLinkActive="active">Shippings</a>
+                        </li>
+                        <li class="account-nav__item">
+                            <a routerLink="/admin/reviews" routerLinkActive="active">Reviews</a>
+                        </li>
+                        <li class="account-nav__item">
+                            <a routerLink="/admin/wishlists" routerLinkActive="active">Wishlists</a>
+                        </li>
+                        <li class="account-nav__item">
+                            <a routerLink="/admin/payments" routerLinkActive="active">Payments</a>
+                        </li>
+                        <li class="account-nav__item">
+                            <a routerLink="/admin/users" routerLinkActive="active">Users</a>
+                        </li>
+                        <li class="account-nav__item">
+                            <a routerLink="/admin/profile" routerLinkActive="active">Profile</a>
+                        </li>
+                        <li class="account-nav__item">
+                            <a class="logout-link" (click)="Logout()">Logout</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="user_content">
+                <div class="dashboard">
+                    <div class="row dash">
+                        <div class="dashboard__profile card card-profile profile-card">
+                            <div id="getUserDetails1" class="card-body profile-card__body">
+                                <div class="profile-card__avatar">
+                                    <img src="assets/images/person.png" alt="" />
+                                </div>
+                                <div class="profile-card__name">{{dashboardVM.userProfile.firstName}} {{dashboardVM.userProfile.lastName}}</div>
+                                <div class="profile-card__email">{{dashboardVM.userProfile.userName}}</div>
+                                <div class="profile-card__edit">
+                                    <a routerLink="/admin/profile" routerLinkActive="active"
+                                       class="btn btn-secondary btn-lg">Edit Profile</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="getUserDetails2"
+                             class="dashboard__address card card-profile address-card address-card--featured">
+                            <div class="address-card__badge">Default Address</div>
+                            <div class="address-card__body">
+                                <div class="address-card__name"></div>
+                                <div class="address-card__row">
+                                    {{dashboardVM.userProfile.address}}
+                                </div>
+                                <div class="address-card__row">
+                                    <div class="address-card__row-title">Phone Number</div>
+                                    <div class="address-card__row-content">
+                                        {{dashboardVM.userProfile.phoneNumber}}
+                                    </div>
+                                </div>
+                                <div class="address-card__row">
+                                    <div class="address-card__row-title">Email Address</div>
+                                    <div class="address-card__row-content">
+                                        {{dashboardVM.userProfile.email}}
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="dashboard__orders card-profile">
+                        <div class="card-header">
+                            <h5>Recent Orders</h5>
+                        </div>
+                        <div class="card-divider"></div>
+                        <div class="card-table">
+                            <div id="getUserOrdersData" class="table-responsive-sm">
+                                <table>
+                                    <thead>
+                                        <tr>
+                                            <th class="update-seller-prod">OrderId</th>
+                                            <th>Username</th>
+                                            <th>Shipping Method</th>
+                                            <th>OrderDate</th>
+                                            <th>TotalAmount</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                            <tr *ngFor="let item of dashboardVM.customersOrders.slice(0, 10); let i = index">
+                                                <td class="update-seller-prod">{{item.orderId}}</td>
+                                                <td>{{item.identityUsername}}</td>
+                                                <td>{{item.shippingMethod}}</td>
+                                                <td>{{item.orderDate | date : 'dd MMMM yyyy'}}</td>
+                                                <td>R{{item.totalAmount | number:'1.2-2'}}</td>
+                                            </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <p><a routerLink="/admin/orders" routerLinkActive="active"
+                                *ngIf="dashboardVM.customersOrders.length > 10">View More</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

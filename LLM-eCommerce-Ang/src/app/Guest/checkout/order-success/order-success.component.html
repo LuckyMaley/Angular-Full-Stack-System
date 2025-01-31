@@ -1,0 +1,22 @@
+<section class="container mt-lg-5">
+    <div class="block order-success">
+        <div>
+            <div class="order-success__body">
+                <div class="order-success__header">
+                    <svg class="order-success__icon" width="100" height="100">
+                        <use xlink:href="assets/images/sprite.svg#check-100"></use></svg><h1 class="order-success__title">Thank you</h1>
+                    <div class="order-success__subtitle">Your order has been received</div>
+                    <div class="order-success__actions"><a routerLink="/home" routerLinkActive="active" class="btn btn-xs btn-secondary">Go To Homepage</a></div>
+                </div>
+                <div class="order-success__meta">
+                    <ul class="order-success__meta-list">
+                        <li class="order-success__meta-item"><span class="order-success__meta-title">Order number:</span> <span class="order-success__meta-value">#{{order.orderId}}</span></li>
+                        <li class="order-success__meta-item"><span class="order-success__meta-title">Created at:</span> <span class="order-success__meta-value">{{order.orderDate | date: 'd MMMM yyyy' }}</span></li>
+                        <li class="order-success__meta-item"><span class="order-success__meta-title">Total:</span> <span class="order-success__meta-value">R{{order.totalAmount | number:'1.2-2' }}</span></li>
+                        <li class="order-success__meta-item"><span class="order-success__meta-title">Payment method:</span> <span class="order-success__meta-value">{{payment.paymentMethod}}</span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

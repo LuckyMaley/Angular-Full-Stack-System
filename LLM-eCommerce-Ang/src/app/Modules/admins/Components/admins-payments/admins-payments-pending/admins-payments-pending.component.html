@@ -1,0 +1,77 @@
+<section>
+    <div class="container mt-5">
+        <div class="row">
+            <div class="user_nav account_nav_div">
+                <div class="account-nav">
+                    <h4 class="account-nav__title">Navigation</h4>
+                    <ul>
+                        <li class="account-nav__item">
+                            <a routerLink="/admin" routerLinkActive="active">Dashboard</a>
+                        </li>
+                        <li class="account-nav__item">
+                            <a routerLink="/admin/categories" routerLinkActive="active">Categories</a>
+                        </li>
+						<li class="account-nav__item">
+                            <a routerLink="/admin/products" routerLinkActive="active">Products</a>
+                        </li>
+                        <li class="account-nav__item">
+                            <a routerLink="/admin/orders" routerLinkActive="active">Orders</a>
+                        </li>
+                        <li class="account-nav__item">
+                            <a routerLink="/admin/shipping" routerLinkActive="active">Shippings</a>
+                        </li>
+                        <li class="account-nav__item">
+                            <a routerLink="/admin/reviews" routerLinkActive="active">Reviews</a>
+                        </li>
+                        <li class="account-nav__item">
+                            <a routerLink="/admin/wishlists" routerLinkActive="active">Wishlists</a>
+                        </li>
+                        <li class="account-nav__item account-nav__item--active">
+                            <a routerLink="/admin/payments" routerLinkActive="active">Payments</a>
+                        </li>
+                        <li class="account-nav__item">
+                            <a routerLink="/admin/users" routerLinkActive="active">Users</a>
+                        </li>
+                        <li class="account-nav__item">
+                            <a routerLink="/admin/profile" routerLinkActive="active">Profile</a>
+                        </li>
+                        <li class="account-nav__item">
+                            <a class="logout-link" (click)="Logout()">Logout</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="user_content ">
+                <div class="table-responsive-sm">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th class="update-seller-prod">PaymentId</th>
+                                <th>User</th>
+                                <th>Order</th>
+                                <th>Method</th>
+                                <th>Amount</th>
+                                <th>Status</th>
+                                <th>Date</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                                <tr *ngFor="let item of payments">
+                                    <td class="update-seller-prod">{{item.paymentId}}</td>
+                                    <td>{{item.identityUsername}}</td>
+                                    <td>#{{item.orderId }}</td>
+                                    <td>{{item.paymentMethod}}</td>
+                                    <td>R{{item.paymentAmount}}</td>
+                                    <td>{{item.paymentStatus}}</td>
+                                    <td>{{item.paymentDate | date: 'dd MMMM yyyy'}}</td>
+                                </tr>
+                        </tbody>
+                    </table>
+                    <p style="text-align: center;" *ngIf="payments.length ==0">No pending payments</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
