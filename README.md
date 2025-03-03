@@ -64,17 +64,21 @@ update-database
 ```
 
 7. Once the connection string is updated, go to the toolbar and look for tools >> Nuget Package Manager >> Package Manager Console and type below.
-> ```
-> add-migration -Context AuthenticationContext 'initialDBCreate'
-> ```
-> Then press enter and once it has been updated, update the database:
-> ```
-> update-database -Context AuthenticationContext
-> ```
-> Then press enter and once it has been updated, update the database:
-> ```
-> update-database -Context LLM_eCommerce_EFDBContext
-> ```
+```
+add-migration -Context AuthenticationContext 'initialDBCreate'
+```
+
+Then press enter and once it has been updated, update the database:
+
+```
+update-database -Context AuthenticationContext
+```
+
+Then press enter and once it has been updated, update the database:
+
+```
+update-database -Context LLM_eCommerce_EFDBContext
+```
 **Note**: This will populate the MSSQL database with the models from both contexts. 
 
 > In the case you update any of the models and you want to update the database again just do as follows on the Package Manager Console:
