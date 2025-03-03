@@ -106,6 +106,7 @@ npm install
 ng serve -o
 ``` 
 **Note**: The Rest API must always be running inorder to be able to properly use the front-end application.
+
 **Note**: The Rest API link address might differ from what is in the [Global Constants typescript file](https://github.com/LuckyMaley/Angular-Full-Stack-System/blob/main/LLM-eCommerce-Ang/src/app/global-constants.ts) so you need to change that link address to make the Rest API's link address so that the front end can communicate with the api correctly
 
 ## Sample data for User Login	
