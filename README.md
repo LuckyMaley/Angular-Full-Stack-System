@@ -22,7 +22,7 @@ A structured branching strategy must be followed to keep the codebase organized:
 - **dev**: Ongoing development. Feature branches are merged here first
 
 - **feature/**: New features.
-  - Example: `feature/add-user-authentication` or `feature/neo4j-implementation`
+  - Example: `feature/add-user-authentication`
 - **bugfix/**: Bug fixes.
   - Example: `bugfix/fix-app-response`
 - **chore/**: Maintenance tasks, documentation,or configurations.
