@@ -16,7 +16,7 @@ Refer to the [Requirements Documentation](/LLM_eCommerce_Requirement_Specificati
 
 ## Branching Strategy
 
-We follow a structured branching strategy to keep the codebase organized:
+A structured branching strategy must be followed to keep the codebase organized:
 
 - **main**: Stable, production-ready code.
 - **dev**: Ongoing development. Feature branches are merged here first
@@ -24,7 +24,7 @@ We follow a structured branching strategy to keep the codebase organized:
 - **feature/**: New features.
   - Example: `feature/add-user-authentication` or `feature/neo4j-implementation`
 - **bugfix/**: Bug fixes.
-  - Example: `bugfix/fix-chatbot-response`
+  - Example: `bugfix/fix-app-response`
 - **chore/**: Maintenance tasks, documentation,or configurations.
   - Example: `chore/add-read-me`
 - **Hotfix branches**: Urgent fixes to `main`.
