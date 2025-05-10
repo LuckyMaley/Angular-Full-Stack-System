@@ -109,6 +109,61 @@ ng serve -o
 
 **Note**: The Rest API link address might differ from what is in the [Global Constants typescript file](https://github.com/LuckyMaley/Angular-Full-Stack-System/blob/main/LLM-eCommerce-Ang/src/app/global-constants.ts) so you need to change that link address to make the Rest API's link address so that the front end can communicate with the api correctly
 
+## Branching Strategy
+
+We follow a structured branching strategy to keep the codebase organized:
+
+- **main**: Stable, production-ready code.
+- **dev**: Ongoing development. Feature branches are merged here first
+
+- **feature/**: New features.
+  - Example: `feature/add-user-authentication` or `feature/neo4j-implementation`
+- **bugfix/**: Bug fixes.
+  - Example: `bugfix/fix-chatbot-response`
+- **chore/**: Maintenance tasks, documentation,or configurations.
+  - Example: `chore/add-read-me`
+- **Hotfix branches**: Urgent fixes to `main`.
+   - Example: `hotfix/critical-bug-in-production`
+
+### Notes:
+- Use **kebab-case** (lowercase with hyphens) for branch names (e.g., `feature/angular-make-payment`).
+- Branch names should be **descriptive** but concise.
+- Avoid spaces, uppercase letters, or special characters.
+
+## Development Workflow
+
+1. **Create a New Branch**:
+   ```bash
+   git checkout -b feature/add-user-authentication
+   ```
+
+2. **Make Changes**:
+   ```bash
+   git add .
+   git commit -m "Implement user authentication feature"
+   ```
+
+3. **Push Your Branch**:
+   ```bash
+   git push origin feature/add-user-authentication
+   ```
+
+4. **Sync with the `dev` Branch**:
+   Before creating a merge request, ensure your branch is up-to-date with the latest changes from the `dev` branch:
+   ```bash
+   git pull origin dev
+   ```
+   If there are any merge conflicts, resolve them in your branch locally. Once resolved, commit the changes and push them back to your branch:
+   
+   ```bash
+   git push origin feature/add-user-authentication
+   ```
+
+5. **Create a Merge Request**:
+   - Open a pull request on GitHub targeting `dev` for code review.
+
+
+
 ## Sample data for User Login	
 ```	
 	             Username	        Password	     Role
